@@ -1,0 +1,120 @@
+<script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="   crossorigin="anonymous"></script>
+<style>
+table tr td {
+  padding:0px;
+}
+#banner-message {
+  background: #eee;
+  border-radius: 4px;
+  padding: 30px;
+  font-size: 25px;
+  text-align: center;
+  transition: all 0.2s;
+  margin: 0 auto;
+}
+
+#button1, #button2, #button3 {
+  border: solid 2px #CE5D6F;
+  border-radius: 50%;
+  cursor:pointer;
+  width:20px;
+  height:20px;
+  transition: .3s;
+}
+.activeButton {background-color: #CE5D6F;}
+.inactiveButton {background-color: #FFF;}
+#card {
+  background-color:#fff;
+  color:black;
+  margin:20px;
+  padding-top: 10px;
+  padding-right: 0px;
+  padding-left: 0px;
+  border:solid #aaa 1px;
+}
+#card-message {font-size:60%;padding-top:10px;padding-bottom:10px;}
+#card-image img {width:75%;padding:0px;}
+</style>
+<div id="banner-message">
+  <table id="card-container" align="center">
+
+  <tr><td><div id="card">
+    <div id="card-message">
+      <p>Join The Movement!</p>
+    </div>
+    <div id="card-image">
+      <img src="images/jointhemovement.jpg">
+    </div>
+  </div></td>
+  
+  <td><div id="card">
+    <div id="card-message">
+      <p>In The News!</p>
+    </div>
+    <div id="card-image">
+      <img src="images/inthenews.jpg">
+    </div>
+  </div></td>
+  
+  <td><div id="card">
+    <div id="card-message">
+      <p>For Underserved Victims!</p>
+    </div>
+    <div id="card-image">
+      <img src="images/forunderservedvictims.jpg">
+    </div>
+  </div></td></tr>
+
+</table>
+<button id="button1" class="activeButton"></button> <button id="button2" class="inactiveButton"></button> <button id="button3" class="inactiveButton"></button>
+</div>
+<script>
+// find elements
+var banner = $("#banner-message")
+var button1 = $("#button1")
+var button2 = $("#button2")
+var button3 = $("#button3")
+var ccontainer = $("#card-container")
+
+button1.on("click",function(){
+button1.removeClass("activeButton")
+button2.removeClass("activeButton")
+button3.removeClass("activeButton")
+button1.addClass("inactiveButton")
+button2.addClass("inactiveButton")
+button3.addClass("inactiveButton")
+ccontainer.animate({opacity:0,},500,function()
+{
+button1.removeClass("inactiveButton")
+button1.addClass("activeButton")
+ccontainer.html('<table id="card-container" align="center"><tr><td><div id="card"><div id="card-message"><p>Join The Movement!</p></div><div id="card-image"><img src="images/jointhemovement.jpg"></div></div></td><td><div id="card"><div id="card-message"><p>In The News!</p></div><div id="card-image"><img src="images/inthenews.jpg"></div></div></td><td><div id="card"><div id="card-message"><p>For Underserved Victims!</p></div><div id="card-image"><img src="images/forunderservedvictims.jpg"></div></div></td></tr></table>')}
+);ccontainer.animate({opacity:1,},800,function(){});});
+
+button2.on("click",function(){
+button1.removeClass("activeButton")
+button2.removeClass("activeButton")
+button3.removeClass("activeButton")
+button1.addClass("inactiveButton")
+button2.addClass("inactiveButton")
+button3.addClass("inactiveButton")
+ccontainer.animate({opacity:0,},500,function()
+{
+button2.removeClass("inactiveButton")
+button2.addClass("activeButton")
+ccontainer.html('<table id="card-container" align="center"><tr><td><div id="card"><div id="card-message"><p>Join Our Newsletter!</p></div><div id="card-image"><img src="images/joinournewsletter.jpg"></div></div></td><td><div id="card"><div id="card-message"><p>Spreading Awareness!</p></div><div id="card-image"><img src="images/spreadingawareness.jpg"></div></div></td><td><div id="card"><div id="card-message"><p>Be The Change!</p></div><div id="card-image"><img src="images/bethechanges.jpg"></div></div></td></tr></table>')}
+);ccontainer.animate({opacity:1,},800,function(){});});
+
+button3.on("click",function(){
+button1.removeClass("activeButton")
+button2.removeClass("activeButton")
+button3.removeClass("activeButton")
+button1.addClass("inactiveButton")
+button2.addClass("inactiveButton")
+button3.addClass("inactiveButton")
+ccontainer.animate({opacity:0,},500,function()
+{
+button3.removeClass("inactiveButton")
+button3.addClass("activeButton")
+ccontainer.html('<table id="card-container" align="center"><tr><td><div id="card"><div id="card-message"><p>Shop Safe!</p></div><div id="card-image"><img src="images/ShopSafe.jpg"></div></div></td><td><div id="card"><div id="card-message"><p>Knowledge Is Powerful!</p></div><div id="card-image"><img src="images/knowledgeispowerful.jpg"></div></div></td><td><div id="card"><div id="card-message"><p>Stay Informed!</p></div><div id="card-image"><img src="images/StayInformed.JPG"></div></div></td></tr></table>')}
+);ccontainer.animate({opacity:1,},800,function(){});});
+</script>
