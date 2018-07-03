@@ -1,0 +1,14 @@
+<style type="text/css">.tm-heading-box {
+   background-color:rgba(206,93,111,0.6);
+   transition:.3s;
+}
+.tm-heading-box:hover {
+   background-color:rgba(206,93,111,0.75);
+}</style>
+<div class="tm-block-full">
+<div class="tm-image uk-text-center uk-animation-fade data-uk-scrollspy" style="background-image: url('images/WAPF-group-banner.jpg');">
+<div class="uk-height-1-1 uk-vertical-align">
+<div class="tm-heading-box uk-vertical-align-middle uk-animation-fade"><i class="uk-icon-heart uk-icon-small"></i><br /> <a class="uk-button uk-button-primary uk-margin-large-top" href="donate.html">DONATE</a>&nbsp;&nbsp;<a class="uk-button uk-button-primary uk-margin-large-top" href="join-safe/become-a-member.html">BECOME A MEMBER</a></div>
+</div>
+</div>
+</div>
