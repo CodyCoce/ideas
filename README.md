@@ -1,3 +1,2 @@
-# ideas
-Just a general place where I can post my ideas.
-There's also a lot of code I don't want deleted or forgotten so I'll be posting that stuff here. I figure by the end of this internship, I should have all the code I've written for the site on here for them to look at for future reference.
+Women Against Paternity Fraud Internship 2018
+This should be all the code I edited or made from scratch with the help of the supervisor, intern coordinator, and other developers.
