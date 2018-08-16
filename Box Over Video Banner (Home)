@@ -1,0 +1,32 @@
+<style type="text/css">
+/* When the page is at least 1000 pixels wide then the div called "VideoAndParagraph" moves to the right 80 pixels */
+@media screen and (min-width:1000px) {
+  #VideoAndParagraph {
+    margin-left: 80px;
+  }
+}
+
+/* When the page is at most 1000 pixels wide then the div called "VideoAndParagraph" loses its margins */
+@media screen and (max-width:1000px) {
+  #VideoAndParagraph {
+    margin-left: 0px;
+  }
+}
+</style>
+
+<div id="VideoAndParagraph">
+
+<!-- The title and quote -->
+<div align="center">
+<h2 class="uk-h1 tm-heading-underline uk-text-center uk-scrollspy-init-inview uk-scrollspy-inview uk-animation-fade">
+<span class="tm-heading-italic" style="color: #000000;">Families are affected when DNA is neglected</span><br />
+<span style="color: #c35967;">Today there is DNA testing<br /> and there is no excuse for<br /> continued injustice.</span></h2>
+<li class="">
+<div class="uk-panel uk-panel-space uk-text-center uk-scrollspy-init-inview uk-scrollspy-inview uk-animation-fade" align="center">
+
+<!-- Welcome video -->
+<iframe width="70%" height="330" src="https://www.youtube.com/embed/RN9aVVFspJU?rel=0&amp;autoplay=0&amp;loop=1&amp;muted=1" frameborder="0" allow="encrypted-media" allowfullscreen="allowfullscreen"></iframe>
+</div>
+</li>
+</div>
+</div>
