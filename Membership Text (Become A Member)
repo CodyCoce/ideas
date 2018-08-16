@@ -1,0 +1,51 @@
+<style type="text/css">
+/* This makes the two boxes move up to the top */
+#becomeAMember_Text {width:100%;margin-top:-70px;font-weight:bold;}
+
+/* This tells the text how to look and where to be */
+#becomeAMember_Text td {
+    color:#fff;
+    text-align:center;
+    vertical-align:top;
+    padding:10px;
+    border:solid 2px #fff;
+    height: 330px; 
+    width: 330px;
+    outline: 2px solid #fff;
+    outline-offset: -10px;
+}
+
+/* This tells the box backgrounds how to look and what to be */
+.become-a-member-text-td {
+    background-image:url('https://images.pexels.com/photos/518245/pexels-photo-518245.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260');
+    background-size:cover;
+    filter:grayscale(40%) sepia(10%);
+}
+
+/* Tells all the <h2> tags in the boxes to be white and have padding around */
+#becomeAMember_Text h2 {color:#fff !important;padding:10px 20px 0px 20px;}
+
+/* Tells all the <p> tags in the boxes to be white and have padding to the sides */
+#becomeAMember_Text p {color:#fff !important;padding:0px 20px 0px 20px;}
+</style>
+<table id="becomeAMember_Text">
+<tbody>
+<tr style="border: solid 2px #fff; padding: 20px;">
+
+<!-- First box -->
+<td class="become-a-member-text-td">
+<h2>Join Women Against Paternity Fraud</h2>
+<p>Please join WAPF today! You will help fund our educational efforts, media program, social networking, and advocacy programs to help educate the public and policy makers on the need for paternity fraud reform. Also, you will allow WAPF to assist paternity fraud victims with the tools and resources they will need when facing this issue.</p>
+</td>
+
+<!-- Whitespace -->
+<td style="width: 40px; height: 330px; background-color: #fff; border-radius: 0px; border: none;">&nbsp;</td>
+
+<!-- Second box -->
+<td class="become-a-member-text-td">
+<h2>How will my Donation Help?</h2>
+<p>Your donation will help fund WAPF so we can continue our educational, media, and advocacy programs needed to spread awareness on this serious issue. You can help us in protecting families from the devastating consequences of false accusations and loss of due process rights. WAPF tracks the issues and alerts our members about policies and legislation involving paternity fraud on the federal, state, and local levels of government. Action begins with your support! You will become an integral part of transforming the lives of families nationwide who are negatively effected by this issue.</p>
+</td>
+</tr>
+</tbody>
+</table>
