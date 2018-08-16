@@ -1,0 +1,46 @@
+<!-- The photo banner -->
+<img src="images/banners/WAPF-Volunteer.jpg" alt="WAPF-Volunteer.jpg" style="width: 100%;" />
+
+<div id="system">
+<div class="content clearfix">
+<center><br><br>
+<table style="width:100%">
+<tbody>
+<tr>
+<td style="text-align: center;font-size:20pt;line-height:21pt;" valign="top">
+
+<!-- Title -->
+<p style="font-size: 24pt;"><strong>VOLUNTEER POSITIONS:</strong></p>
+
+<!-- List of positions -->
+<p><a href="index.php?option=com_content&amp;view=article&amp;id=142&amp;Itemid=550" title="Graphic Arts Internships">GRAPHIC DESIGN</a></p>
+<p><a href="index.php?option=com_content&amp;view=article&amp;id=126&amp;Itemid=551" title="Information Technology Internships">INFORMATION TECHNOLOGY</a></p>
+<p><a href="index.php?option=com_content&amp;view=article&amp;id=135&amp;Itemid=552" title="Journalism Internships">JOURNALISM</a></p>
+<p><a href="index.php?option=com_content&amp;view=article&amp;id=136&amp;Itemid=553" title="Management Internships">MANAGEMENT</a></p>
+<p><a href="index.php?option=com_content&amp;view=article&amp;id=137&amp;Itemid=554" title="Public Relations Internships">PUBLIC RELATIONS</a></p>
+<p><a href="index.php?option=com_content&amp;view=article&amp;id=138&amp;Itemid=555" title="Social Media Manager Internships">SOCIAL MEDIA</a></p>
+<p><a href="index.php?option=com_content&amp;view=article&amp;id=139&amp;Itemid=556" title="Sales / Marketing Internships">SALES / MARKETING</a></p>
+<p><a href="index.php?option=com_content&amp;view=article&amp;id=140&amp;Itemid=557" title="Video Production Internships">VIDEO PRODUCTION</a></p>
+<p><a href="index.php?option=com_content&amp;view=article&amp;id=141&amp;Itemid=558" title="Web Development Internships">WEB DEVELOPMENT</a></p>
+</td>
+
+<td style="text-align: center;">
+<a href="images/interns/WAPFApplication.pdf" title="Download Application Form" target="_blank">
+<img src="images/interns/WAPFApplication.png" alt="WAPFApplication" />
+</a>
+<br>
+<a href="images/interns/WAPFApplication.pdf" title="Download Application Form" target="_blank">Download Volunteer Form</a>
+</td>
+
+</tr>
+</tbody>
+</table>
+</center>
+<br>
+
+<!-- Details after paragraphs -->
+<p style="text-align: center;">Women Against Paternity Fraud has many types of volunteer opportunities.</p>
+<p style="text-align: center;">If you would like to volunteer a few hours of your time, please fill out our <a href="index.php?option=com_content&amp;view=featured&amp;Itemid=499" style="text-align: center;">Volunteer Application Form.</a></p>
+<p style="text-align: center;"><strong>You'll find it both fun and rewarding to volunteer at WAPF!</strong></p>
+</div>
+</div>
