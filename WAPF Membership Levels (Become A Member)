@@ -1,0 +1,69 @@
+<style type="text/css">
+.zoom {
+    transition: transform .2s;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+}
+
+.zoom:hover {
+    transform: scale(1.2); /* (120% zoom - Note: if the zoom is too large, it will go outside of the viewport. scale(1) would be 100%.) */
+}
+
+#become-a-member-table tr td img {
+border-radius: 20px;
+}
+
+.zoomdonate {
+    transition: transform .2s;
+    margin: 0 auto;
+}
+.zoomdonate:hover {
+   transform: scale(1.08); /* (108% zoom - Note: if the zoom is too large, it will go outside of the viewport. scale(1) would be 100%.) */
+}
+</style>
+
+<!-- Photo banner -->
+<img src="images/become-a-member/bright/250/test/become-a-member.png" alt="become-a-member.png" style="width: 100%; margin-top: -70px;" class="become-a-member-banner" />
+
+<!-- Whitespace -->
+<p>&nbsp;</p>
+
+<!-- Subscription levels -->
+<table style="width: 100%;" cellpadding="10" id="become-a-member-table" align="center">
+<tbody>
+<tr>
+<td class="zoom"><a href="index.php?option=com_content&amp;view=featured&amp;Itemid=595"><img alt="basic membership" src="images/become-a-member/bright/250/test/final_basic2.jpg" style="border: solid 2px #E9704C;" /></a></td>
+<td class="zoom"><a href="index.php?option=com_content&amp;view=featured&amp;Itemid=595"><img alt="deluxe membership" src="images/become-a-member/bright/250/test/final_deluxe2.jpg" style="border: solid 2px #D05E70;" /></a></td>
+<td class="zoom"><a href="index.php?option=com_content&amp;view=featured&amp;Itemid=595"><img alt="premium membership" src="images/become-a-member/bright/250/test/final_premium2.jpg" style="border: solid 2px #6DC076;" /></a></td>
+<td class="zoom"><a href="index.php?option=com_content&amp;view=featured&amp;Itemid=595"><img alt="lifetime membership" src="images/become-a-member/bright/250/test/final_lifetime2.jpg" style="border: solid 2px #46ACED;" /></a></td>
+</tr>
+</tbody>
+</table>
+
+<!-- Whitespace -->
+<p>&nbsp;</p>
+
+<!-- Donate button with text surrounding it -->
+<table id="become-a-member-donate-box-with-text">
+<tbody>
+<tr>
+
+<!-- Left side paragraph -->
+<td style="text-align: center; width: 30%; padding: 20px;">
+<p>If you do not wish to join WAPF at this time, but would rather make a donation, please click the Donate button to the right.</p>
+</td>
+
+<!-- Donate button -->
+<td style="text-align: center; width: 40%;"><a href="donate"><img alt="donate button" src="images/become-a-member/bright/250/test/donate_wood2.jpg" width="300px" class="zoomdonate" style="border-radius: 20px;" /></a></td>
+
+<!-- Right side paragraph -->
+<td style="text-align: center; width: 30%;">
+<p>With your support, we can change the law to enforce the use of DNA tests in hospitals. Donate today!</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<!-- Membership Recognition Wall link -->
+<p style="text-align: center; margin-left: 50px;"><a href="join-us/recognition/">Click here to visit the Membership Recognition Wall!</a></p>
