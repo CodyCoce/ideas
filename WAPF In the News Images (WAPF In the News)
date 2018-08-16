@@ -1,0 +1,24 @@
+<style type="text/css">
+/* Box shadows appear when the cursor hovers over them */
+.box-shadow-on-hover tr {padding:20px;}
+.box-shadow-on-hover a img {transition:0.3s;width:100%;}
+.box-shadow-on-hover a img:hover {box-shadow:0px 0px 30px 2px #888;}
+
+/* Class made specially for <td>s */
+.whitespace {width:20px;height:20px;}
+</style>
+<table class="box-shadow-on-hover" align="center">
+<tbody>
+<tr>
+<td><a href="http://womenagainstpaternityfraud.com/wapf2018/join-us/528-national-tv-shows"> <img src="images/advisors/National_TV_Shows.jpeg" alt="National TV Shows" /> </a></td>
+<td class="whitespace">&nbsp;</td>
+<td><a href="http://womenagainstpaternityfraud.com/wapf2018/join-us/529-online-media"> <img src="images/advisors/Online_Media.jpeg" alt="Online Media" /> </a></td>
+</tr>
+<tr class="whitespace"></tr>
+<tr>
+<td><a href="http://womenagainstpaternityfraud.com/wapf2018/join-us/530-print-media"> <img src="images/advisors/Print_Media.jpeg" alt="Print Media" /> </a></td>
+<td class="whitespace">&nbsp;</td>
+<td><a href="http://womenagainstpaternityfraud.com/wapf2018/join-us/531-online-media"> <img src="images/advisors/Radio_Shows.jpeg" alt="Radio Shows" /> </a></td>
+</tr>
+</tbody>
+</table>
