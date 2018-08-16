@@ -1,0 +1,60 @@
+<!-- Photo banner -->
+<p style="text-align: center;"><img src="images/banners/Educational-Videos.jpeg" alt="Educational-Videos.jpeg" style="width: 850px;" /></p>
+
+<!-- Whitespace -->
+<p>&nbsp;</p>
+
+<style type="text/css">
+/* Tells the table to be as wide as can be */
+.video-table {
+	width:100%;
+}
+
+/* Tells the <td>s in the table to take 30% of the available space and be centered */
+.video-table tr td {
+	width:30%;
+	text-align:center;
+}
+
+/* Tells the <iframe>s to be 480 pixels wide and 235 pixels tall */
+.video-table tr td iframe {
+	width:480px;
+	height:235px;
+}
+</style>
+<table class="video-table">
+<tbody>
+<tr>
+<td>
+<p><iframe src="https://www.youtube.com/embed/I3f6L46mGxg" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
+</td>
+<td>
+<p><iframe src="https://www.youtube.com/embed/2RgygXlVSrs" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><iframe src="https://www.youtube.com/embed/oG1JsO93zpM" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
+</td>
+<td>
+<p><iframe src="https://www.youtube.com/embed/0QmPBIlqqmI" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><iframe src="https://www.youtube.com/embed/DqdW_fyuYJg" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
+</td>
+<td>
+<p><iframe src="https://www.youtube.com/embed/jRm3ZmlFFco" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><iframe src="https://www.youtube.com/embed/R79-kerXJ48" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
+</td>
+<td>
+<p><iframe src="https://www.youtube.com/embed/dxYgxaXUR3Q" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
+</td>
+</tr>
+</tbody>
+</table>
