@@ -1,0 +1,82 @@
+<!-- Spokespersons Photo Banner -->
+<p><img src="images/banners/Spokespersons.jpg" alt="Spokespersons.jpg" style="width: 100%;" /></p>
+
+<div style="text-align: center;">
+<p>We can also provide national-leading experts with insight about paternity / paternity fraud issues for local events and educational purposes. To request a representative from our Speakers Bureau, please email us a letter of your request. Include the date, time, location, brief description of your event, and which speaker you are requesting. Please make sure you include a contact name, phone number, and email in order for a representative to contact you.</p>
+<p>We are happy to provide spokespersons for print, radio, and television interviews. Please contact the Women Against Paternity Fraud's Media Department.</p>
+<strong>Please contact us at:</strong><br /> <span style="font-size: 18pt;">202-531-9330</span><br /> <a href="mailto:media@womenagainstpaternityfraud.org">media@womenagainstpaternityfraud.org</a></div>
+<style type="text/css">
+#spokespersons-table {
+	width: 100%; 
+	background-color:transparent;
+}
+#spokespersons-table #spokespersons-td {
+	text-align:center;
+}
+#spokespersons-table #spokespersons-whitespace {
+    padding:1px;
+}
+#spokespersons-table img {
+    border:solid 5px #606060;
+}
+#spokespersons-table span {
+	color:#c35967;
+}
+
+/* When the screen is at least 1200 pixels wide, the panels do the following */
+@media screen and (min-width: 1200px) {
+	#spokespersons-table #spokespersons-td {
+	width:350px;
+	max-height:320px;
+	}
+	#spokespersons-table img {
+	width:200px;
+	height:200px;
+	}
+}
+
+/* When the screen is at most 1200 pixels wide, the panels do the following */
+@media screen and (max-width: 1200px) {
+	#spokespersons-table #spokespersons-td {
+	width:330px;
+	max-height:300px;
+	}
+}
+
+/* When the screen is at most 1220 pixels wide, the panels do the following */
+@media screen and (max-width: 1220px) {
+	#spokespersons-table img {
+	width:200px;
+	height:190px;
+	}
+}</style>
+<br />
+<table id="spokespersons-table">
+<tbody>
+<tr>
+
+<!-- First card -->
+<td id="spokespersons-td"><a href="news-room/525-dianna-thompson-spokesperson">
+<div id="box-shadow-on-hover" class="bsoh-gray"><img src="images/spokepersons/diannathompson.jpg" alt="Dianna Thompson" />
+<h5>Dianna Thompson<br /> <span>Read More About<br />Dianna</span></h5>
+</div>
+</a></td>
+<td id="spokespersons-whitespace">&nbsp;</td>
+
+<!-- Second card -->
+<td id="spokespersons-td"><a href="news-room/526-murray-davis-spokesperson">
+<div id="box-shadow-on-hover" class="bsoh-gray"><img src="images/spokepersons/MD_3.5X5_300dpi_RGB.jpg" alt="Murray Davis, M.A. SJ" />
+<h5>Murray Davis, M.A. SJ<br /> <span>Read More About<br />Murray</span></h5>
+</div>
+</a></td>
+<td id="spokespersons-whitespace">&nbsp;</td>
+
+<!-- Third card -->
+<td id="spokespersons-td"><a href="news-room/527-carnell-smith-spokesperson">
+<div id="box-shadow-on-hover" class="bsoh-gray"><img src="images/spokepersons/images-2.jpg" alt="Carnell Smith" />
+<h5>Carnell Smith<br /> <span>Read More About<br />Carnell</span></h5>
+</div>
+</a></td>
+</tr>
+</tbody>
+</table>
