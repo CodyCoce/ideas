@@ -1,0 +1,19 @@
+<!-- Photo banner -->
+<p style="text-align: center;"><img src="images/banners/help-and-information.jpeg" alt="help-and-information.jpeg" style="width: 850px;" /></p>
+
+<!-- Whitespace -->
+<p>&nbsp;</p>
+
+<!-- Title -->
+<p style="text-align: center;"><span style="font-size: 24pt;color: #d05e70;">Presentations at Press Conferences, Conferences, &amp; Events</span></p>
+
+<!-- Two videos -->
+<table align="center" style="width: 100%;">
+<tbody>
+<tr>
+<td align="center"><iframe width="400" height="215" src="https://www.youtube.com/embed/pnYDmmR5cfw?rel=0" frameborder="0" allowfullscreen="allowfullscreen"></iframe><br />Town Hall Meeting on Paternity Fraud in New Jersey</td>
+<td align="center"><iframe width="400" height="215" src="https://www.youtube.com/embed/-V9BtDpYg4A?rel=0" frameborder="0" allowfullscreen="allowfullscreen"></iframe><br />International Conference in Michigan</td>
+</tr>
+</tbody>
+</table>
+<br />
