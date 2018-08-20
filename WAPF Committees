@@ -1,0 +1,52 @@
+<!-- The photo banner -->
+<p><img src="images/banners/WAPF-Committees.jpg" alt="WAPF-Committees.jpg" style="width: 100%;" /></p>
+
+<!-- Empty space before the "page" starts -->
+<p>&nbsp;</p>
+
+<style type="text/css">
+/* Tells the table to take 100% available space in the position */
+.tidyingUpThatOldCode {width:100%;}
+
+/* Tells the table cells in the table to align the text to the center, be 200 pixels wide, have 30 pixels of padding, and align all content to the top */
+.tidyingUpThatOldCode td {text-align:center;width:300px;padding:30px;vertical-align:top;}
+
+/* Tells all images in the table cells to be 250 pixels wide and adjust height according to the width */
+.tidyingUpThatOldCode td img {width:300px;height:auto;}
+</style>
+
+<p>WAPF has several committees. If you are interested in being on a committee, please email us at <a href="mailto:director@womenagainstpaternityfraud.org">director@womenagainstpaternityfraud.org</a>.</p>
+<table class="tidyingUpThatOldCode">
+<tbody>
+<tr>
+<td>
+<p><img src="images/committees/advocacycomittee.jpg" alt="advocacycomittee" /></p>
+<p><strong>Advocacy Committee:</strong><br /> Keeping track of legislation, conducting letter writing campaigns, lobbying legislatures, planning advocacy events, and organizing testimony.</p>
+</td>
+<td>
+<p><img src="images/committees/tech.jpg" alt="tech" /></p>
+<p><strong>Technology Committee:</strong><br /> Contributing to the WAPF website and social media, including Facebook and Twitter.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><img src="images/committees/outreachcommittee.jpg" alt="outreachcommittee" /></p>
+<p><strong>Outreach Committee:</strong><br /> Building our relationships with other organizations and individuals who care about this issue.</p>
+</td>
+<td>
+<p><img src="images/committees/membershipcommittee.jpg" alt="membershipcommittee" /></p>
+<p><strong>Membership Committee:</strong><br /> There are strength in numbers! This committee is dedicated to building our membership base.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><img src="images/committees/education.jpg" alt="education" /></p>
+<p><strong>Education Committee:</strong><br /> Working with the Speaker's Bureau members on conference presentations, speaking engagements, and at seminars on this issue of paternity fraud.</p>
+</td>
+<td>
+<p><img src="images/committees/editorial.jpg" alt="editorial" /></p>
+<p><strong>Editorial Committee:</strong><br /> Writing news articles, commentary, press releases, and other content as needed.</p>
+</td>
+</tr>
+</tbody>
+</table>
