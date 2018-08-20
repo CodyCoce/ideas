@@ -23,7 +23,6 @@
 #attorneys-table #attorneys-td div:hover {box-shadow:0px 0px 30px 2px #888;}
 
 #attorneys-table img {
-	/* border:solid 5px #c35967; */
     border:solid 5px #606060;
 }
 #attorneys-table span {
