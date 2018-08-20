@@ -1,0 +1,84 @@
+<!-- Photo banner -->
+<p><img src="images/banners/WAPF-IDEA-11.png" alt="WAPF-IDEA-11.png" style="width: 100%;" /></p>
+
+<!-- Title -->
+<h2 style="text-align: center;"><strong>HELP US HELP CHILDREN AND FAMILIES</strong></h2>
+
+<!-- Paragraphs -->
+<p>WAPF is working to address the issue of Paternity Fraud by educating the public through our media campaigns and bringing about effective and positive legislative changes through our advocacy programs. All children deserve to know the identity of their biological fathers, their medical history, and if they are eligible for inheritance rights. Today there is DNA testing and no excuse for continued injustice for families.</p>
+
+<p>Please help fund our efforts and make a difference by giving to WAPF!<br />
+<strong>Women Against Paternity Fraud (WAPF) is a 501(c)(3) tax exempt, nonprofit organization. All donations are tax-deductible to the extent permitted by law.</strong></p>
+
+<hr />
+
+<!-- Form starts -->
+<form style="margin: 0px;" action="http://www.womenagainstpaternityfraud.org/cgi-bin/donate.pl" method="post" name="form">
+<table align="center">
+<tbody>
+<tr>
+
+<!-- Donation amount -->
+<td align="center">
+<strong>Donation Amount</strong><br />
+<input style="vertical-align: middle; font-size: 12px; font-family: Arial, sans-serif; padding: 2px;" name="Donation" size="10" type="text" />
+</td>
+
+<!-- Donate button -->
+<td>
+<input style="vertical-align: middle; font-size: 12px; font-family: Arial, sans-serif; padding: 0px; cursor: pointer;" src="http://www.mensenews.org/images/paypal.gif" type="image" />
+</td>
+
+<!-- PayPal button -->
+<td>
+<img src="http://www.mensenews.org/images/paypal-logo.gif" alt="paypal-logo" />
+</td>
+
+</tr>
+</tbody>
+</table>
+</form>
+
+<center>
+
+<br /><hr /><br />
+
+<!-- Center description -->
+<table align="center" style="text-align:center;width:100%;">
+<tbody>
+
+<tr>
+<td colspan="2" style="text-align:center"><p><strong>Donations are processed by Paypal, the industry leader in online payment processing.</strong></p></td>
+</tr>
+
+<tr>
+<td colspan="2" style="text-align:center"><p>Or, simply write out a check and mail it to:</p></td>
+</tr>
+
+<tr>
+<td style="text-align:center"><p><strong>WAPF (Corporate Office)</strong><br>10030 Scenic View Terrace<br>Vienna, VA 22182-1339</p></td>
+<td style="text-align:center"><p><strong>Women Against Paternity Fraud</strong><br>3400 Calloway Drive, Suite 703-E<br>Bakersfield, CA 93312</p></td>
+</tr>
+
+<tr>
+<td colspan="2" style="text-align:center"><p>For questions on how you can do monthly donations please call us at (661) 829-6807</p></td>
+</tr>
+
+<tr>
+<td colspan="2" style="text-align:center"><p><strong>Thank you so much for your generous support!</strong></p></td>
+</tr>
+
+</tbody>
+</table>
+
+</center>
+
+
+
+
+
+
+
+
+
+
