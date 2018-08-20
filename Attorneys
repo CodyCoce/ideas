@@ -1,0 +1,62 @@
+<!-- Photo banner -->
+<p><img src="images/banners/WAPF-Attorneys.jpg" alt="WAPF-Attorneys.jpg" style="width: 100%;" /></p>
+
+<!-- Paragraphs -->
+<p>Women Against Paternity Fraud has compiled the following list of law firms and attorneys who have had success representing paternity fraud vicims.</p>
+
+<p>WAPF is not a legal organization and does not engage in the practice of law. We cannot provide legal advice or representation, and we do not get involved in the attorney-client relationships with those we help.</p>
+
+<p><strong><span style="color: #ca4e4e;">Disclaimer:</span></strong> The law firms and attorneys listed on this page have provided us with their information posted. WAPF has not verified, validated, or confirmed the accuracy of this information. WAPF does not endorse attorneys and will not refer you to a specific law firm or attorney; you are solely responsible for selecting an attorney based on your own judgement, research, and evaluation. WAPF makes no representation, guarantee or warranty (express or implied) as to the legal ability, competence, quality, or reliability of any legal services provided by any of the attorney listed on this page, nor does WAPF guarantee any particular outcome.</p>
+
+<!-- Whitespace -->
+<p>&nbsp;</p>
+
+<style type="text/css">
+#attorneys-table tr {
+	background-color:white;
+}
+#attorneys-table #attorneys-td {
+	text-align:center;
+	transition:0.3s;
+	border:none;
+}
+#attorneys-table #attorneys-td div:hover {box-shadow:0px 0px 30px 2px #888;}
+
+#attorneys-table img {
+	/* border:solid 5px #c35967; */
+    border:solid 5px #606060;
+}
+#attorneys-table span {
+	color:#c35967;
+}
+
+
+#attorneys-table {width: 100%; background-color:transparent;}
+#attorneys-table #attorneys-td-2 {padding:1px;width:4px;}
+</style>
+
+
+<table id="attorneys-table">
+<tbody>
+<tr>
+
+<!-- Thirteenth card --> 
+<td id="attorneys-td"><a href="resources/attorneys/488-richard-lowe-esq-attorney-page">
+<div style="padding: 30px 20px 10px 20px; background-color: #dddada; border: none; transition: 0.3s;"><img src="images/attorneys/twoguys.jpg" alt="Richard Lowe" />
+<h5>Richard Lowe, Esq<br /> Los Angeles, California<br /> <span>Read More About Richard</span></h5>
+</div>
+</a></td>
+
+<!-- Whitespace -->
+<td id="attorneys-td-2">&nbsp;</td>
+
+<!-- Fourtheenth card --> 
+<td id="attorneys-td"><a href="resources/attorneys/487-siew-ling-shea-esq-attorney-page">
+<div style="padding: 30px 20px 10px 20px; background-color: #dddada; border: none; transition: 0.3s;"><img src="images/attorneys/Siew-Ling_Shea.jpg" alt="Siew Ling Shea" />
+<h5>Siew-Ling Shea, Esq.<br /> Nashville, Tennesse<br /> <span>Read More About Siew-Ling</span></h5>
+</div>
+</a></td>
+
+</tr>
+</tbody>
+</table>
