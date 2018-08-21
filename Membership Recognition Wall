@@ -28,7 +28,7 @@
 /* When the page is at most 1215 pixels then the background changes */
 @media screen and (max-width: 1215px) {
 	.table-container-size {
-	padding: 20px 50px 20px 0px !important;
+		padding: 20px 50px 20px 0px !important;
         margin: -70px -5px -105px -25px !important;
 	}
 }
@@ -51,20 +51,21 @@
 
 /* Tells the table to be more centered */
 .table {
-	margin:30px;
+	margin:35px;
 	padding:10px;
 }
 
-/* Gives the cards a border and takes away empty space */
+/* Gives the cards a border and takes away empty space as well sets any transparent background to the pink background color that text has */
 .card {
 	border:thick solid #000 !important;
 	padding:0px !important;
 	margin:0px !important;
+	background-color:#c35967;
 }
 
 /* Puts empty space around the .image class */
 .image {
-	padding:20px 100px 20px 100px;
+	padding:20px 50px 20px 50px;
 	background-color:#919191;
 }
 
@@ -95,14 +96,21 @@
 /* Whitespace width class */
 .whitespace-w {
 	background:transparent;
-	width:100px;
+	width:30px;
 	border:none !important;
 }
 
 /* Whitespace height class */
 .whitespace-h {
 	background:transparent;
-	height:100px;
+	height:70px;
+	border:none !important;
+}
+
+/* Makes the card transparent and ready for edits */
+.card-empty {
+	opacity:0;
+	pointer-events:none;
 	border:none !important;
 }
 </style>
@@ -113,14 +121,21 @@
 <td class="card">
 <div class="image"><img src="images/FredricHayward.jpg" alt="Fredric Hayward" /></div>
 <div class="text">
-<p style="color: #fff !important;"><strong>Fredric Hayward</strong><br /> Lifetime Member<br /> December 2015</p>
+<p><strong>Fredric Hayward</strong><br /> Lifetime Member<br /> December 2015</p>
 </div>
 </td>
 <td class="whitespace-w">&nbsp;</td>
 <td class="card">
 <div class="image"><img src="images/Gil_Llewellyn.png" alt="Gil Llewellyn" /></div>
 <div class="text">
-<p style="color: #fff !important;"><strong>Gil Llewellyn</strong><br /> Lifetime Member<br /> December 2016</p>
+<p><strong>Gil Llewellyn</strong><br /> Lifetime Member<br /> December 2016</p>
+</div>
+</td>
+<td class="whitespace-w">&nbsp;</td>
+<td class="card">
+<div class="image"><img src="images/LindaSantos.jpg" alt="Linda Santos" /></div>
+<div class="text">
+<p ><strong>Linda Santos</strong><br /> Premium Member<br /> December 2015</p>
 </div>
 </td>
 </tr>
@@ -128,31 +143,27 @@
 <td>&nbsp;</td>
 </tr>
 <tr>
-<td class="card">
-<div class="image"><img src="images/LindaSantos.jpg" alt="Linda Santos" /></div>
-<div class="text">
-<p style="color: #fff !important;"><strong>Linda Santos</strong><br /> Premium Member<br /> December 2015</p>
-</div>
-</td>
-<td class="whitespace">&nbsp;</td>
 <td class="card">
 <div class="image"><img src="http://www.womenagainstpaternityfraud.org/images/recognition/kelli_mccuistion.jpg" alt="Kelli McCuistion" /></div>
 <div class="text">
 <p><strong>Kelli McCuistion</strong><br /> Premium Member<br /> February 2016</p>
 </div>
 </td>
-</tr>
-<tr class="whitespace-h">
-<td>&nbsp;</td>
-</tr>
-<tr>
+<td class="whitespace-w">&nbsp;</td>
 <td class="card">
 <div class="image"><img src="http://www.womenagainstpaternityfraud.org/images/recognition/ryan_mccuistion.jpg" alt="Ryan McCuistion" /></div>
 <div class="text">
-<p style="color: #fff !important;"><strong>Ryan McCuistion</strong><br /> Premium Member<br /> February 2016</p>
+<p><strong>Ryan McCuistion</strong><br /> Premium Member<br /> February 2016</p>
 </div>
 </td>
 <td class="whitespace">&nbsp;</td>
+<td class="card card-empty">
+<div class="image"><img src="http://www.womenagainstpaternityfraud.org/images/recognition/ryan_mccuistion.jpg" alt="Ryan McCuistion" /></div>
+<div class="text">
+<p><strong>Ryan McCuistion</strong><br /> Premium Member<br /> February 2016</p>
+</div>
+</td>
+</tr>
 <!-- This is a template when you want to add more members -->
 
     <!-- Use content inside this comment and edit it
