@@ -1,5 +1,4 @@
-<style type="text/css">
-.zoom {
+<style type="text/css">.zoom {
     transition: transform .2s;
     width: 150px;
     height: 150px;
@@ -20,15 +19,9 @@ border-radius: 20px;
 }
 .zoomdonate:hover {
    transform: scale(1.08); /* (108% zoom - Note: if the zoom is too large, it will go outside of the viewport. scale(1) would be 100%.) */
-}
-</style>
-
-<!-- Photo banner -->
-<img src="images/become-a-member/bright/250/test/become-a-member.png" alt="become-a-member.png" style="width: 100%; margin-top: -70px;" class="become-a-member-banner" />
-
-<!-- Whitespace -->
+}</style>
+<!-- Photo banner --> <img src="images/become-a-member/bright/250/test/become-a-member.png" alt="become-a-member.png" style="width: 100%; margin-top: -70px;" class="become-a-member-banner" /> <!-- Whitespace -->
 <p>&nbsp;</p>
-
 <!-- Subscription levels -->
 <table style="width: 100%;" cellpadding="10" id="become-a-member-table" align="center">
 <tbody>
@@ -40,23 +33,17 @@ border-radius: 20px;
 </tr>
 </tbody>
 </table>
-
 <!-- Whitespace -->
 <p>&nbsp;</p>
-
 <!-- Donate button with text surrounding it -->
 <table id="become-a-member-donate-box-with-text">
 <tbody>
-<tr>
-
-<!-- Left side paragraph -->
+<tr><!-- Left side paragraph -->
 <td style="text-align: center; width: 30%; padding: 20px;">
 <p>If you do not wish to join WAPF at this time, but would rather make a donation, please click the Donate button to the right.</p>
 </td>
-
 <!-- Donate button -->
-<td style="text-align: center; width: 40%;"><a href="donate"><img alt="donate button" src="images/become-a-member/bright/250/test/donate_wood2.jpg" width="300px" class="zoomdonate" style="border-radius: 20px;" /></a></td>
-
+<td style="text-align: center; width: 40%;"><a href="donate"><img alt="donate button" id="box-shadow-on-hover" src="images/become-a-member/bright/250/test/donate_wood2.jpg" width="300px" class="zoomdonate" style="border-radius: 20px;" /></a></td>
 <!-- Right side paragraph -->
 <td style="text-align: center; width: 30%;">
 <p>With your support, we can change the law to enforce the use of DNA tests in hospitals. Donate today!</p>
@@ -64,6 +51,5 @@ border-radius: 20px;
 </tr>
 </tbody>
 </table>
-
 <!-- Membership Recognition Wall link -->
 <p style="text-align: center; margin-left: 50px;"><a href="join-us/recognition/">Click here to visit the Membership Recognition Wall!</a></p>
