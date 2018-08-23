@@ -1,15 +1,11 @@
-<style type="text/css">
-/* The colors for the links on the panels */
+<style type="text/css">/* The colors for the links on the panels */
 #SlidesetEditedBySteven        {color:#c35967;}
 #SlidesetEditedBySteven:hover  {color:#eb6879;}
 #SlidesetEditedBySteven:active {color:#bd4264;}
 
 /* To center the header on the panels */
-.uk-panel-title {text-align:center;}
-</style>
-<div id="slideshow-55-596d911de7d59" class="wk-slideshow wk-slideshow-eat" data-widgetkit="slideshow" data-options="{&quot;style&quot;:&quot;eat&quot;,&quot;autoplay&quot;:1,&quot;interval&quot;:4000,&quot;width&quot;:&quot;auto&quot;,&quot;height&quot;:400,&quot;duration&quot;:400,&quot;index&quot;:0,&quot;order&quot;:&quot;default&quot;,&quot;navigation&quot;:1,&quot;buttons&quot;:0,&quot;slices&quot;:15,&quot;animated&quot;:&quot;scroll&quot;,&quot;caption_animation_duration&quot;:200}" style="visibility: visible; position: relative; width: 920px; margin-top: -105px;">
-
-<!-- The beginning of the slideset -->
+.uk-panel-title {text-align:center;}</style>
+<div id="slideshow-55-596d911de7d59" class="wk-slideshow wk-slideshow-eat" data-widgetkit="slideshow" data-options="{&quot;style&quot;:&quot;eat&quot;,&quot;autoplay&quot;:1,&quot;interval&quot;:4000,&quot;width&quot;:&quot;auto&quot;,&quot;height&quot;:400,&quot;duration&quot;:400,&quot;index&quot;:0,&quot;order&quot;:&quot;default&quot;,&quot;navigation&quot;:1,&quot;buttons&quot;:0,&quot;slices&quot;:15,&quot;animated&quot;:&quot;scroll&quot;,&quot;caption_animation_duration&quot;:200}" style="visibility: visible; position: relative; width: 920px; margin-top: -105px;"><!-- The beginning of the slideset -->
 <div>
 <ul class="slides" style="width: 100%; overflow: hidden; position: relative; height: 400px;">
 <li style="top: 0px; left: 0px; position: absolute; display: list-item; z-index: 2; height: 400px; width: 1060px;">
@@ -18,15 +14,8 @@
 <li class="uk-row-first">
 <div class="uk-panel uk-panel-box uk-panel-header tm-panel-note uk-animation-fade uk-hidden-small" style="max-height: 326px;">
 <p class="uk-text-muted tm-uppercase uk-margin-bottom-remove">&nbsp;</p>
-<h3 class="uk-h4 uk-panel-title uk-text-truncate uk-margin-top-remove"><a class="uk-link-reset uk-animation-hover uk-top-center" href="resources/help-and-information"> 
-
-<!-- The title of the panel --> 
-<span id="SlidesetEditedBySteven">EDUCATIONAL RESOURCES</span></a></h3>
-
-<a href="resources/help-and-information"> 
-
-<!-- The image of the panel --> 
-<img class="uk-align-center" alt="educational resources.png" src="images/slideset/edited/educational-resources.png" width="220" height="220" /></a>
+<h3 class="uk-h4 uk-panel-title uk-text-truncate uk-margin-top-remove"><a class="uk-link-reset uk-animation-hover uk-top-center" href="resources/help-and-information"> <!-- The title of the panel --> <span id="SlidesetEditedBySteven">EDUCATIONAL RESOURCES</span></a></h3>
+<a href="resources/help-and-information"> <!-- The image of the panel --> <img class="uk-align-center" alt="educational resources.png" src="images/slideset/edited/educational-resources.png" width="220" height="220" id="box-shadow-on-hover" /></a>
 <div class="uk-clearfix">
 <div class="uk-float-left uk-text-truncate">&nbsp;</div>
 </div>
@@ -35,16 +24,8 @@
 <li class="uk-row-first">
 <div class="uk-panel uk-panel-box uk-panel-header tm-panel-note uk-animation-fade uk-hidden-small" style="max-height: 326px;">
 <p class="uk-text-muted tm-uppercase uk-margin-bottom-remove">&nbsp;</p>
-<h3 class="uk-h4 uk-panel-title uk-text-truncate uk-margin-top-remove"><a class="uk-link-reset uk-animation-hover uk-top-center" href="store"> 
-
-<!-- The title of the panel --> 
-<span id="SlidesetEditedBySteven">STORE</span></a></h3>
-
-<a href="store"> 
-
-<!-- The image of the panel --> 
-<img class="uk-align-center" alt="store.png" src="images/slideset/edited/store.png" width="220" height="220" /></a>
-
+<h3 class="uk-h4 uk-panel-title uk-text-truncate uk-margin-top-remove"><a class="uk-link-reset uk-animation-hover uk-top-center" href="store"> <!-- The title of the panel --> <span id="SlidesetEditedBySteven">STORE</span></a></h3>
+<a href="store"> <!-- The image of the panel --> <img class="uk-align-center" alt="store.png" src="images/slideset/edited/store.png" width="220" height="220" id="box-shadow-on-hover" /></a>
 <h4 class="uk-h5 uk-text-truncate uk-margin-bottom-remove">&nbsp;</h4>
 <div class="uk-clearfix">&nbsp;</div>
 <div class="uk-float-left uk-text-truncate">&nbsp;</div>
@@ -53,16 +34,8 @@
 <li class="uk-row-first">
 <div class="uk-panel uk-panel-box uk-panel-header tm-panel-note uk-animation-fade uk-hidden-small" style="max-height: 326px;">
 <p class="uk-text-muted tm-uppercase uk-margin-bottom-remove">&nbsp;</p>
-<h3 class="uk-h4 uk-panel-title uk-text-truncate uk-margin-top-remove"><a class="uk-link-reset uk-animation-hover uk-animation-top-right" href="join-us/become-a-member"> 
-
-<!-- The title of the panel --> 
-<span id="SlidesetEditedBySteven">BECOME A MEMBER</span></a></h3>
-
-<a href="join-us/become-a-member"> 
-
-<!-- The image of the panel --> 
-<img class="uk-align-center" alt="become member.png" src="images/slideset/edited/become-member.png" width="220" height="220" /></a>
-
+<h3 class="uk-h4 uk-panel-title uk-text-truncate uk-margin-top-remove"><a class="uk-link-reset uk-animation-hover uk-animation-top-right" href="join-us/become-a-member"> <!-- The title of the panel --> <span id="SlidesetEditedBySteven">BECOME A MEMBER</span></a></h3>
+<a href="join-us/become-a-member"> <!-- The image of the panel --> <img class="uk-align-center" alt="become member.png" src="images/slideset/edited/become-member.png" width="220" height="220" id="box-shadow-on-hover" /></a>
 <h4 class="uk-h5 uk-text-truncate uk-margin-bottom-remove"><a class="uk-link-reset" href="https://demo.yootheme.com/themes/joomla/2014/eat/index.php?&amp;style=default"></a></h4>
 <div class="uk-clearfix">
 <div class="uk-float-left uk-text-truncate">&nbsp;</div>
@@ -78,16 +51,8 @@
 <li class="uk-row-first">
 <div class="uk-panel uk-panel-box uk-panel-header tm-panel-note uk-animation-fade uk-hidden-small" style="max-height: 326px;">
 <p class="uk-text-muted tm-uppercase uk-margin-bottom-remove">&nbsp;</p>
-<h3 class="uk-h4 uk-panel-title uk-text-truncate uk-margin-top-remove"><a class="uk-link-reset uk-animation-hover uk-top-center" href="join-us/join-mailing-list"> 
-
-<!-- The title of the panel --> 
-<span id="SlidesetEditedBySteven">JOIN OUR NEWSLETTER</span></a></h3>
-
-<a href="join-us/join-mailing-list"> 
-
-<!-- The image of the panel --> 
-<img class="uk-align-center" src="images/slideset/edited/join-our-newsletter.png" alt="join our newsletter.png" width="220" height="220" /></a>
-
+<h3 class="uk-h4 uk-panel-title uk-text-truncate uk-margin-top-remove"><a class="uk-link-reset uk-animation-hover uk-top-center" href="join-us/join-mailing-list"> <!-- The title of the panel --> <span id="SlidesetEditedBySteven">JOIN OUR NEWSLETTER</span></a></h3>
+<a href="join-us/join-mailing-list"> <!-- The image of the panel --> <img class="uk-align-center" src="images/slideset/edited/join-our-newsletter.png" alt="join our newsletter.png" width="220" height="220" id="box-shadow-on-hover" /></a>
 <h4 class="uk-h5 uk-text-truncate uk-margin-bottom-remove"><a class="uk-link-reset" href="https://demo.yootheme.com/themes/joomla/2014/eat/index.php?&amp;style=default"></a></h4>
 <div class="uk-clearfix">&nbsp;</div>
 </div>
@@ -95,16 +60,8 @@
 <li class="uk-row-first">
 <div class="uk-panel uk-panel-box uk-panel-header tm-panel-note uk-animation-fade uk-hidden-small" style="max-height: 326px;">
 <p class="uk-text-muted tm-uppercase uk-margin-bottom-remove">&nbsp;</p>
-<h3 class="uk-h4 uk-panel-title uk-text-truncate uk-margin-top-remove"><a class="uk-link-reset uk-animation-hover uk-top-center" href="about-us/advisory-board"> 
-
-<!-- The title of the panel --> 
-<span id="SlidesetEditedBySteven">ADVISORY BOARD</span></a></h3>
-
-<a href="about-us/advisory-board"> 
-
-<!-- The image of the panel --> 
-<img class="uk-align-center" src="images/slideset/edited/advisory-board.png" alt="advisory board.png" width="220" height="150" /></a>
-
+<h3 class="uk-h4 uk-panel-title uk-text-truncate uk-margin-top-remove"><a class="uk-link-reset uk-animation-hover uk-top-center" href="about-us/advisory-board"> <!-- The title of the panel --> <span id="SlidesetEditedBySteven">ADVISORY BOARD</span></a></h3>
+<a href="about-us/advisory-board"> <!-- The image of the panel --> <img class="uk-align-center" src="images/slideset/edited/advisory-board.png" alt="advisory board.png" width="220" height="150" id="box-shadow-on-hover" /></a>
 <h4 class="uk-h5 uk-text-truncate uk-margin-bottom-remove"><a class="uk-link-reset" href="https://demo.yootheme.com/themes/joomla/2014/eat/index.php?&amp;style=default"></a></h4>
 <div class="uk-clearfix">
 <div class="uk-float-left uk-text-truncate">&nbsp;</div>
@@ -114,16 +71,8 @@
 <li class="uk-row-first">
 <div class="uk-panel uk-panel-box uk-panel-header tm-panel-note uk-animation-fade uk-hidden-small" style="max-height: 326px;">
 <p class="uk-text-muted tm-uppercase uk-margin-bottom-remove">&nbsp;</p>
-<h3 class="uk-h4 uk-panel-title uk-text-truncate uk-margin-top-remove"><a class="uk-link-reset uk-animation-hover uk-top-center" href="join-us/internships"> 
-
-<!-- The title of the panel --> 
-<span id="SlidesetEditedBySteven">INTERNSHIP OPPORTUNITIES</span></a></h3>
-
-<a href="join-us/internships"> 
-
-<!-- The image of the panel --> 
-<img class="uk-align-center" src="images/slideset/edited/internship-opportunities.png" alt="internship opportunities.png" width="220" height="220" /></a>
-
+<h3 class="uk-h4 uk-panel-title uk-text-truncate uk-margin-top-remove"><a class="uk-link-reset uk-animation-hover uk-top-center" href="join-us/internships"> <!-- The title of the panel --> <span id="SlidesetEditedBySteven">INTERNSHIP OPPORTUNITIES</span></a></h3>
+<a href="join-us/internships"> <!-- The image of the panel --> <img class="uk-align-center" src="images/slideset/edited/internship-opportunities.png" alt="internship opportunities.png" width="220" height="220" id="box-shadow-on-hover" /></a>
 <h4 class="uk-h5 uk-text-truncate uk-margin-bottom-remove"><a class="uk-link-reset" href="https://demo.yootheme.com/themes/joomla/2014/eat/index.php?&amp;style=default"></a></h4>
 <div class="uk-clearfix">&nbsp;</div>
 </div>
@@ -137,16 +86,8 @@
 <li class="uk-row-first">
 <div class="uk-panel uk-panel-box uk-panel-header tm-panel-note uk-animation-fade uk-hidden-small" style="max-height: 326px;">
 <p class="uk-text-muted tm-uppercase uk-margin-bottom-remove">&nbsp;</p>
-<h3 class="uk-h4 uk-panel-title uk-text-truncate uk-margin-top-remove"><a class="uk-link-reset uk-animation-hover uk-top-center" href="articles"> 
-
-<!-- The title of the panel --> 
-<span id="SlidesetEditedBySteven">NEWS ARTICLE</span></a></h3>
-
-<a href="articles"> 
-
-<!-- The image of the panel --> 
-<img class="uk-align-center" src="images/slideset/edited/news-article.png" alt="news article.png" width="220" height="220" /></a>
-
+<h3 class="uk-h4 uk-panel-title uk-text-truncate uk-margin-top-remove"><a class="uk-link-reset uk-animation-hover uk-top-center" href="articles"> <!-- The title of the panel --> <span id="SlidesetEditedBySteven">NEWS ARTICLE</span></a></h3>
+<a href="articles"> <!-- The image of the panel --> <img class="uk-align-center" src="images/slideset/edited/news-article.png" alt="news article.png" width="220" height="220" id="box-shadow-on-hover" /></a>
 <h4 class="uk-h5 uk-text-truncate uk-margin-bottom-remove"><a class="uk-link-reset" href="https://demo.yootheme.com/themes/joomla/2014/eat/index.php?&amp;style=default"></a></h4>
 <div class="uk-clearfix">
 <div class="uk-float-left uk-text-truncate">&nbsp;</div>
@@ -156,16 +97,8 @@
 <li class="uk-row-first">
 <div class="uk-panel uk-panel-box uk-panel-header tm-panel-note uk-animation-fade" style="max-height: 328px;">
 <p class="uk-text-muted tm-uppercase uk-margin-bottom-remove">&nbsp;</p>
-<h3 class="uk-h4 uk-panel-title uk-text-truncate uk-margin-top-remove uk-animation-hover uk-animation-top-left"><a class="uk-link-reset" href="resources/educational-videos/"> 
-
-<!-- The title of the panel --> 
-<span id="SlidesetEditedBySteven">EDUCATIONAL VIDEOS</span></a></h3>
-
-<a href="resources/educational-videos/">
-
-<!-- The image of the panel --> 
-<img class="uk-align-center" src="images/slideset/edited/educational-videos.png" alt="educational videos.png" width="220" height="220" /></a>
-
+<h3 class="uk-h4 uk-panel-title uk-text-truncate uk-margin-top-remove uk-animation-hover uk-animation-top-left"><a class="uk-link-reset" href="resources/educational-videos/"> <!-- The title of the panel --> <span id="SlidesetEditedBySteven">EDUCATIONAL VIDEOS</span></a></h3>
+<a href="resources/educational-videos/"> <!-- The image of the panel --> <img class="uk-align-center" src="images/slideset/edited/educational-videos.png" alt="educational videos.png" width="220" height="220" id="box-shadow-on-hover" /></a>
 <h4 class="uk-h5 uk-text-truncate uk-margin-bottom-remove">&nbsp;</h4>
 <div class="uk-clearfix">
 <div class="uk-float-left uk-text-truncate">&nbsp;</div>
@@ -175,16 +108,8 @@
 <li class="uk-row-first">
 <div class="uk-panel uk-panel-box uk-panel-header tm-panel-note uk-animation-fade uk-hidden-small" style="max-height: 326px;">
 <p class="uk-text-muted tm-uppercase uk-margin-bottom-remove">&nbsp;</p>
-<h3 class="uk-h4 uk-panel-title uk-text-truncate uk-margin-top-remove"><a class="uk-link-reset uk-animation-hover uk-top-center" href="join-us/volunteer"> 
-
-<!-- The title of the panel --> 
-<span id="SlidesetEditedBySteven">VOLUNTEER</span></a></h3>
-
-<a href="join-us/volunteer"> 
-
-<!-- The image of the panel --> 
-<img class="uk-align-center" src="images/slideset/edited/volunteer-scroll-box-graphic.png" alt="volunteer.png" width="220" height="220" /></a>
-
+<h3 class="uk-h4 uk-panel-title uk-text-truncate uk-margin-top-remove"><a class="uk-link-reset uk-animation-hover uk-top-center" href="join-us/volunteer"> <!-- The title of the panel --> <span id="SlidesetEditedBySteven">VOLUNTEER</span></a></h3>
+<a href="join-us/volunteer"> <!-- The image of the panel --> <img class="uk-align-center" src="images/slideset/edited/volunteer-scroll-box-graphic.png" alt="volunteer.png" width="220" height="220" id="box-shadow-on-hover" /></a>
 <h4 class="uk-h5 uk-text-truncate uk-margin-bottom-remove"><a class="uk-link-reset" href="https://demo.yootheme.com/themes/joomla/2014/eat/index.php?&amp;style=default"></a></h4>
 <div class="uk-clearfix">&nbsp;</div>
 </div>
@@ -200,7 +125,6 @@
 <li></li>
 </ul>
 </div>
-
 <!-- The three dots used to navigate through the panels -->
 <ul class="nav">
 <li class="active"><span></span></li>
