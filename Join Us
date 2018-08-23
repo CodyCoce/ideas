@@ -1,0 +1,117 @@
+<style type="text/css">/* Tells the table to be 100% width */
+#joinustable {
+	width:100%;
+}
+
+/* Tells <td>s in the table what to do and how to look */
+#joinustable td {
+	width:200px;
+	text-align:center;
+	font-size:20px;
+	vertical-align:top;
+}
+
+/* Tells all images in the table to have an animation transition time of 0.3 seconds */
+#joinustable td img {
+    transition:0.3s;
+}
+
+/* Tells images in <td>s with the class "hoverable" that when the mouse goes over them then they should get a box shadow with 30 pixels of range and 2 pixels of intensity and be the color #888 */
+#joinustable td.hoverable img:hover {
+    box-shadow:0px 0px 30px 2px #888;
+}
+
+/* When the page is a minimum of 1200 pixels wide then the images grow/shrink */
+@media screen and (min-width: 1200px) {
+	#joinustable td img {
+	width:330px;
+	max-height:300px;
+	}
+}
+
+/* When the page is a maximum of 1220 pixels wide then the images grow/shrink */
+@media screen and (max-width: 1220px) {
+	#joinustable td img {
+	width:280px;
+	max-height:250px;
+	}
+}
+
+/* When the maximum width of the page is 1010 pixels then the images grow/shrink */
+@media screen and (max-width: 1010px) {
+	#joinustable td img {
+	width:230px;
+	max-height:200px;
+	}
+}
+
+/* When the maximum width of the page is 820 pixels then the images grow/shrink */
+@media screen and (max-width: 820px) {
+	#joinustable td img {
+	width:180px;
+	max-height:150px;
+	}
+}
+
+/* When the maximum width of the page is 620 pixels then the images grow/shrink */
+@media screen and (max-width: 620px) {
+	#joinustable td img {
+	width:130px;
+	max-height:100px;
+	}
+}
+
+/* When the maximum width of the page is 500 pixels then the images grow/shrink (Most likely just shrink if you get to this width) */
+@media screen and (max-width: 500px) {
+	#joinustable td img {
+	width:100px;
+	max-height:90px;
+	}
+}</style>
+<table id="joinustable">
+<tbody>
+<tr><!-- Become A Member -->
+<td class="hoverable"><a href="join-us/become-a-member/">
+<p><img src="images/join_us/become_a_member.jpg" alt="become a member" /></p>
+</a></td>
+<!-- Internship Programs -->
+<td class="hoverable"><a href="join-us/internships/">
+<p><img src="images/join_us/internships.jpg" alt="internship programs" /></p>
+</a></td>
+<!-- E-Newsletter Sign Up -->
+<td class="hoverable"><a href="join-us/join-mailing-list/">
+<p><img src="images/join_us/join_our_newsletter.jpg" alt="newsletter" /></p>
+</a></td>
+</tr>
+<tr>
+<td colspan="3">&nbsp;</td>
+</tr>
+<tr><!-- Like Us on Facebook -->
+<td class="hoverable"><a href="https://www.facebook.com/WomenAgainstPaternityFraud.org" target="_blank" rel="noopener">
+<p><img src="images/join_us/like_us_on_facebook.jpg" alt="like us" /></p>
+</a></td>
+<!-- [Blank space] -->
+<td><img src="images/wapfcircle-3.jpg" alt="WAPF logo" /></td>
+<!-- Facebook Support Group -->
+<td class="hoverable"><a href="https://www.facebook.com/WomenAgainstPaternityFraud.org" target="_blank" rel="noopener">
+<p><img src="images/join_us/facebook_support_group.jpg" alt="support group" /></p>
+</a></td>
+</tr>
+<tr>
+<td colspan="3">&nbsp;</td>
+</tr>
+<tr><!-- Volunteer Opportunities -->
+<td class="hoverable"><a href="join-us/volunteer/">
+<p><img src="images/join_us/volunteer.jpg" alt="volunteer opportunities" /></p>
+</a></td>
+<!-- Membership Recognition Wall -->
+<td class="hoverable"><a href="join-us/recognition/">
+<p><img src="images/join_us/membership_wall.jpg" alt="membership recognition wall" /></p>
+</a></td>
+<!-- WAPF Committees -->
+<td class="hoverable"><a href="join-us/wapf-committees/">
+<p><img src="images/join_us/committees.jpg" alt="committees" /></p>
+</a></td>
+</tr>
+</tbody>
+</table>
