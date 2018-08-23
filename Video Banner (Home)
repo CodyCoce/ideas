@@ -1,8 +1,38 @@
+<style type="text/css">/* (Desktop) When the minimum width of the page is 800 pixels then the video doesn't react to the user clicking */
+@media screen and (min-width: 1000px) {
+ #fullscreen-video-banner-container {
+  pointer-events: none;
+ }
+}
+
+/* (Mobile) When the maximum width of the page is 800 pixels then the video reacts to the user tapping */
+@media screen and (max-width: 1000px) {
+ #fullscreen-video-banner-container {
+  pointer-events: auto;
+ }
+}
+
+/* When the minimum width of the page is 1200 pixels then the div holding the video becomes 800 pixels to push the welcome video box down */
+@media screen and (min-width: 1200px) {
+ #fullscreen-video-banner-container {
+  min-height: 800px;
+ }
+}
+
+/* When the maximum width of the page is 1200 pixels then the div holding the video becomes 500 pixels to push the welcome video box down */
+@media screen and (max-width: 1200px) {
+ #fullscreen-video-banner-container {
+  min-height: 500px;
+ }
+}
+
+/* When the maximum width of the page is 800 pixels then the div holding the video becomes 00 pixels to push the welcome video box down */
+@media screen and (max-width: 800px) {
+ #fullscreen-video-banner-container {
+  min-height: 0px;
+ }
+}</style>
 <!-- This tells the video not to react when the user clicks on it -->
-<p style="pointer-events: none;">
-
-<!-- This tells the video to play automatically, loop whenever the playerhead reaches the end, and doesn't play any audio -->
-<video autoplay="autoplay" loop="loop" muted="muted" width="100%" height="100%" type="video/mpeg" id="player"> Your browser does not support the video tag.
-<source src="images/videos/video-banner.mp4" type="video/mp4" /></video>
-
-</p>
+<div id="fullscreen-video-banner-container"><!-- This tells the video to play automatically, loop whenever the playerhead reaches the end, and doesn't play any audio --> 
+<video autoplay="autoplay" loop="loop" muted="muted" width="100%" height="100%" type="video/mpeg" id="player" poster="images/videos/video-banner-poster.png"> Your browser does not support the video tag. <source src="images/videos/video-banner2.mp4" type="video/mp4" /></video>
+</div>
