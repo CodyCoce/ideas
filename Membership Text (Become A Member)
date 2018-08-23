@@ -1,5 +1,4 @@
-<style type="text/css">
-/* This makes the two boxes move up to the top */
+<style type="text/css">/* This makes the two boxes move up to the top */
 #becomeAMember_Text {width:100%;margin-top:-70px;font-weight:bold;}
 
 /* This tells the text how to look and where to be */
@@ -26,21 +25,16 @@
 #becomeAMember_Text h2 {color:#fff !important;padding:10px 20px 0px 20px;}
 
 /* Tells all the <p> tags in the boxes to be white and have padding to the sides */
-#becomeAMember_Text p {color:#fff !important;padding:0px 20px 0px 20px;}
-</style>
+#becomeAMember_Text p {color:#fff !important;padding:0px 20px 0px 20px;}</style>
 <table id="becomeAMember_Text">
 <tbody>
-<tr style="border: solid 2px #fff; padding: 20px;">
-
-<!-- First box -->
+<tr style="border: solid 2px #fff; padding: 20px;"><!-- First box -->
 <td class="become-a-member-text-td">
 <h2>Join Women Against Paternity Fraud</h2>
 <p>Please join WAPF today! You will help fund our educational efforts, media program, social networking, and advocacy programs to help educate the public and policy makers on the need for paternity fraud reform. Also, you will allow WAPF to assist paternity fraud victims with the tools and resources they will need when facing this issue.</p>
 </td>
-
 <!-- Whitespace -->
 <td style="width: 40px; height: 330px; background-color: #fff; border-radius: 0px; border: none;">&nbsp;</td>
-
 <!-- Second box -->
 <td class="become-a-member-text-td">
 <h2>How will my Donation Help?</h2>
