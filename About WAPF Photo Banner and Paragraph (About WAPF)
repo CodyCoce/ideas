@@ -1,40 +1,22 @@
 <!-- Photo banner -->
-<p><img src="images/banners/WAPF-About-Us.JPG" alt="WAPF-About-Us.JPG" style="width: 100%;" /></p>
-
-
-
-<style>
-/* When the page is at least 1200 pixels then an invisible paragraph appears and takes up whitespace */
+<p><img src="images/banners/ABOUT.JPG" alt="ABOUT" style="width: 100%;" width="1000" /></p>
+<style type="text/css">/* When the page is at least 1200 pixels then an invisible paragraph appears and takes up whitespace */
 @media screen and (min-width: 1200px) {#image-and-content-whitespace {display:block;}}
 
 /* When the page is at most 1220 pixels then an invisiable paragraph disappaers and causes the text to move up to the top of the area */
-@media screen and (max-width: 1220px) {#image-and-content-whitespace {display:none;}}
-</style>
-
-
+@media screen and (max-width: 1220px) {#image-and-content-whitespace {display:none;}}</style>
 <!-- Image and text for image container -->
-<div style="min-height:210px;">
-
-<!-- Image -->
+<div style="min-height: 210px;"><!-- Image -->
 <p><img style="margin-bottom: 20px; margin-right: 20px; float: left;" src="images/dianna_alicia_sm.JPG" alt="dianna alicia sm" width="279" height="201" /></p>
-
 <!-- Text for image -->
 <p id="image-and-content-whitespace">&nbsp;</p>
-<p><strong>Women Against Paternity Fraud</strong> (WAPF) was founded in November 2014 by <a href="about-us/wapf-founders">Dianna Thompson</a> and <a href="about-us/wapf-founders">Alicia Thompson</a> (not related).</p>
-
+<p><strong>Women Against Paternity Fraud</strong> (WAPF) was founded in November 2014 by <a href="about-us/wapf-founders" target="_blank">Dianna Thompson</a> and <a href="about-us/wapf-founders" target="_blank">Alicia Thompson</a> (not related).</p>
 <p><strong>WAPF is a 501(c)(3), tax exempt, non-profit organization, that educates the public, media, and policy makers on issues relating to paternity fraud.</strong></p>
-
 </div>
-
 <!-- Paragraphs -->
 <p>Paternity Fraud has devastating effects on (not only men), but the children and women in their lives as well, including; spouses, girlfriends, mothers, aunts, grandmothers, and other relatives. Women who were lied to about the identity of their father are also paternity fraud victims. People tend to think of paternity fraud as just a men's issue but our members are both women and men negatively affected by this issue.</p>
-
 <p>To maximize child support collections, the federal government requires each state to have paternity establishment procedures. The federal government also provides penalties and incentives to the states related to their performance in paternity establishment. Eligibility for receipt of federal funds under Temporary Assistance to Needy Families (TANF) and under the incentive formula depends upon tagging the largest number of men, and there is no review or requirement that it be the right man. With the enormous sums of federal funds at stake, the result is not difficult to predict. WAPF believes that the eligibility for receipt of federal funds given to states under Temporary Assistance for Needy Families (TANF) must change.</p>
-
 <p>For centuries, in marital situations courts have followed a rule known as the “presumption of paternity,” which was a substitute for the truth at a time when the truth could not be obtained. As a result, a man becomes the legal father of any child born to his wife during their marriage. Despite scientific advances and case law that supports the use of DNA tests, the presumption of paternity remains in practice even today. When the wife has an affair, or becomes pregnant while she is still legally married but separated from her husband -- many men fall into the trap of thinking that they do not have to do anything because the child is clearly not their biological child. This is an unfortunate misconception. If paternity is not contested immediately (before the statute of limitations) there will be little chance of a husband getting out of paying child support. Even in the cases where women truthfully disclosed who the father is, and DNA testing proved the husband is "not the father," the courts would not release the husband from paying child support. We support the use of DNA testing and that presumptions and limitations that were useful in the pre-DNA era should give way to truth and justice today.</p>
-
 <p>The true impact of paternity fraud goes far beyond child support and federal funding. For children facing life-threatening illnesses, such as cancer requiring bone-marrow transplants or other medical emergencies requiring blood transfusions, — knowledge of biological heritage can be a matter of life and death.</p>
-
 <p>The emotional nature of this issue clouds the patent reality that paternity fraud is a crime and must be treated as such. Children are the real victims in paternity fraud. As a society, we promote the importance of children’s best interests. They are both the most vulnerable and arguably the most important assets in society; however, it should never be a sufficient argument to say that it is in the best interest of any child to perpetuate a fraud. It is our position that honoring the truth serves the best interests of children, families, and society.</p>
-
 <p>WAPF hopes to address the issue of Paternity Fraud by instituting dialogue and educational efforts that bring about effective and positive change -- to insure the protection of all citizens throughout the country. In the past, injustices could occur because we were simply unable to be sure about the identity of the child’s father. Today, there is DNA testing and that excuse no longer exists. We are living in a time where there is no excuse for continued injustice.</p>
