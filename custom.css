@@ -1,0 +1,1677 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+/* ========================================================================
+   Use this file to add custom CSS easily
+ ========================================================================== */
+
+/* change article title color */
+a {
+  color: #c35967;
+  text-decoration: none;
+}
+
+/* change bg color to #000000 */
+.uk-panel-box-toBlack {
+  background-color: #000000;
+}
+
+/* remove sidebar padding */
+  .tm-sidebar-a .uk-panel-box { padding: 0px; }
+
+/* header center */
+div.header-center h3.header { text-align: center; }
+}
+
+/* center align fox contact title */
+.foxcontainer{
+text-align:center;
+}
+
+/* adjust sidebar-b width */
+.tm-sidebar-b {
+width: 28%;
+}
+
+.tm-main {
+width: 90%;
+}
+
+/* Disabled user control of starting/pausing video upon clicking */
+.ytplayer {
+pointer-events: none;
+position: absolute;
+}
+
+/* Michael's way */
+.embed-container {  
+  position: relative;   
+  padding-bottom: 56.25%; /* ratio 16x9 */  
+  height: 0;   
+  overflow: hidden;   
+  width: 100%;  
+  height: auto;  
+}  
+.embed-container iframe {  
+  position: absolute;   
+  top: 0;   
+  left: 0;   
+  width: 100%;   
+  height: 100%;   
+}
+
+
+
+.tm-headerbar .tm-logo {  
+    display: table;  
+    float: none;  
+    margin-left: auto;  
+    margin-right: auto;  
+}
+
+
+.menubar { margin: 0px -20px -20px -20px; }
+
+
+/* adjust navbar length */
+.uk-navbar-nav > li.uk-width-1-10 {   
+width: 20%;   
+}    
+
+.uk-navbar-nav > li.uk-width-1-10 > a {  
+border: 1px solid rgba(0, 0, 0, 0.05);  
+}
+
+.uk-navbar-nav > li.uk-width-1-10 .uk-dropdown {  
+margin-top: 5px;  
+}
+
+/* Make fullscreen height automatic */
+.tm-page {       
+z-index: 1;      
+position: relative !important;   
+}      
+
+/*
+ * Blocks
+ */
+/*
+border-top: solid #eaeef0;
+}*/
+.tm-block-light {
+  background-color: #ffffff;
+}
+.tm-block-dark {
+  background-color: #fcfcfc;
+}
+
+ /*Block light and grey */
+.tm-block-light + .tm-block-dark,
+.tm-block-dark + .tm-block-light {
+  border-top: 1px solid #eaeef0;
+}
+.tm-block-light {
+  background-color: #ffffff;
+}
+.tm-block-dark {
+  background-color: #fcfcfc;
+  	  border-top:  solid #eaeef0;
+  padding-top: 70px; 
+  padding-bottom: 20px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+
+/* diable video controls */
+video::-webkit-media-controls {
+  display: none;
+}
+
+/* iframe loading image */
+.holds-the-iframe {
+  background:url(/images/group_of_people_for_safe.jpg) center center no-repeat;
+}
+
+/*
+ * 1. Create position context
+ * 2. Create stacking context to prevent z-index issues with other components
+ * 3. Set width because child elements are positioned absolute. Height is set via JS
+ * 4. Reset list style
+ * 5. Clip child elements
+ * 6. Deactivate browser history navigation in IE11
+ */
+.uk-slideshow {
+  /* 1 */
+  position: relative;
+  /* 2 */
+  z-index: 0;
+  /* 3 */
+  width: 100%;
+  /* 4 */
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  /* 5 */
+  overflow: hidden;
+  /* 6 */
+  touch-action: pan-y;
+}
+/*
+ * Sub-object item
+ * 1. Position items above each other
+ * 2. Expand to parent container width
+ * 3. Hide by default
+ */
+.uk-slideshow > li {
+  /* 1 */
+  position: absolute;
+  top: 0;
+  left: 0;
+  /* 2 */
+  width: 100%;
+  /* 3 */
+  opacity: 0;
+}
+/*
+ * Active
+ * 1. Stack at first
+ * 2. Show slide
+ */
+.uk-slideshow > .uk-active {
+  /* 1 */
+  z-index: 10;
+  /* 2 */
+  opacity: 1;
+}
+/*
+ * Hide default images which is only relevant to keep existing proportions
+ */
+.uk-slideshow > li > img {
+  visibility: hidden;
+}
+/*
+ * Pointer for controls
+ */
+[data-uk-slideshow-slide] {
+  cursor: pointer;
+}
+/* Modifier: `uk-slideshow-fullscreen`
+ ========================================================================== */
+.uk-slideshow-fullscreen,
+.uk-slideshow-fullscreen > li {
+  height: 100vh;
+}
+/* Animations
+ ========================================================================== */
+/*
+ * Fade
+ */
+.uk-slideshow-fade-in {
+  -webkit-animation: uk-fade 0.5s linear;
+  animation: uk-fade 0.5s linear;
+}
+.uk-slideshow-fade-out {
+  -webkit-animation: uk-fade 0.5s linear reverse;
+  animation: uk-fade 0.5s linear reverse;
+}
+/*
+ * Scroll
+ */
+.uk-slideshow-scroll-forward-in {
+  -webkit-animation: uk-slide-right 0.5s ease-in-out;
+  animation: uk-slide-right 0.5s ease-in-out;
+}
+.uk-slideshow-scroll-forward-out {
+  -webkit-animation: uk-slide-left 0.5s ease-in-out reverse;
+  animation: uk-slide-left 0.5s ease-in-out reverse;
+}
+.uk-slideshow-scroll-backward-in {
+  -webkit-animation: uk-slide-left 0.5s ease-in-out;
+  animation: uk-slide-left 0.5s ease-in-out;
+}
+.uk-slideshow-scroll-backward-out {
+  -webkit-animation: uk-slide-right 0.5s ease-in-out reverse;
+  animation: uk-slide-right 0.5s ease-in-out reverse;
+}
+/*
+ * Scale
+ */
+.uk-slideshow-scale-out {
+  -webkit-animation: uk-fade-scale-15 0.5s ease-in-out reverse;
+  animation: uk-fade-scale-15 0.5s ease-in-out reverse;
+}
+/*
+ * Swipe
+ */
+.uk-slideshow-swipe-forward-in {
+  -webkit-animation: uk-slide-left-33 0.5s ease-in-out;
+  animation: uk-slide-left-33 0.5s ease-in-out;
+}
+.uk-slideshow-swipe-forward-out {
+  -webkit-animation: uk-slide-left 0.5s ease-in-out reverse;
+  animation: uk-slide-left 0.5s ease-in-out reverse;
+}
+.uk-slideshow-swipe-backward-in {
+  -webkit-animation: uk-slide-right-33 0.5s ease-in-out;
+  animation: uk-slide-right-33 0.5s ease-in-out;
+}
+.uk-slideshow-swipe-backward-out {
+  -webkit-animation: uk-slide-right 0.5s ease-in-out reverse;
+  animation: uk-slide-right 0.5s ease-in-out reverse;
+}
+.uk-slideshow-swipe-forward-in:before,
+.uk-slideshow-swipe-backward-in:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  background: rgba(0, 0, 0, 0.6);
+  -webkit-animation: uk-fade 0.5s ease-in-out reverse;
+  animation: uk-fade 0.5s ease-in-out reverse;
+}
+/* ========================================================================
+   Component: Slider
+ ========================================================================== */
+/*
+ * RTL Compatibility
+ */
+[data-uk-slider] {
+  direction: ltr;
+}
+html[dir="rtl"] .uk-slider > * {
+  direction: rtl;
+}
+/*
+ * 1. Create position context
+ * 2. Create stacking context to prevent z-index issues with other components
+ * 3. Deactivate browser history navigation in IE11
+ */
+.uk-slider {
+  /* 1 */
+  position: relative;
+  /* 2 */
+  z-index: 0;
+  /* 3 */
+  touch-action: pan-y;
+}
+/*
+ * 1. Reset list style without interfering with grid
+ */
+.uk-slider:not(.uk-grid) {
+  /* 1 */
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+/*
+ * Sub-object item
+ * 1. Position items above each other
+ */
+.uk-slider > * {
+  /* 1 */
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+/*
+ * Clip child elements
+ */
+.uk-slider-container {
+  overflow: hidden;
+}
+/*
+ * Dragged
+ */
+.uk-slider:not(.uk-drag) {
+  -webkit-transition: -webkit-transform 200ms linear;
+  transition: transform 200ms linear;
+}
+/*
+ * 1. Makes text unselectable
+ */
+.uk-slider.uk-drag {
+  cursor: col-resize;
+  /* 1 */
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+/*
+ * 1. Prevents images and links from being dragged (default browser behavior)
+ * 2. Disables the default callout shown when you touch and hold a touch target
+ * Currently only works in Webkit
+ */
+.uk-slider a,
+.uk-slider img {
+  /* 1 */
+  -webkit-user-drag: none;
+  user-drag: none;
+  /* 2 */
+  -webkit-touch-callout: none;
+}
+/*
+ * 1. Prevents images and links from being dragged in Firefox
+ */
+.uk-slider img {
+  pointer-events: none;
+}
+/* Modifier: `uk-slider-fullscreen`
+ ========================================================================== */
+.uk-slider-fullscreen,
+.uk-slider-fullscreen > li {
+  height: 100vh;
+}
+/* ========================================================================
+   Component: Sticky
+ ========================================================================== */
+/*
+ * 1. More robust if padding and border are used
+ * 2. Enable hardware acceleration for iOS browsers, resolves scrolling issue
+ */
+[data-uk-sticky].uk-active {
+  z-index: 980;
+  /* 1 */
+  box-sizing: border-box;
+  /* 2 */
+  -webkit-backface-visibility: hidden;
+}
+/*
+ * Faster animations
+ */
+[data-uk-sticky][class*='uk-animation-'] {
+  -webkit-animation-duration: 0.2s;
+  animation-duration: 0.2s;
+}
+[data-uk-sticky].uk-animation-reverse {
+  -webkit-animation-duration: 0.2s;
+  animation-duration: 0.2s;
+}
+
+/*
+ * Grid cell
+ * 1. Space is allocated solely based on content dimensions
+ * 2. Makes grid more robust so that it can be used with other block elements
+ * 3. DEPRECATED Using `float` to support IE9
+ */
+.uk-grid > * {
+  /* 1 */
+  -ms-flex: none;
+  -webkit-flex: none;
+  flex: none;
+  /* 2 */
+  margin: 0;
+  /* 3 */
+  float: left;
+}
+/*
+ * Remove margin from the last-child
+ */
+.uk-grid > * > :last-child {
+  margin-bottom: 0;
+}
+/* Grid gutter
+ ========================================================================== */
+/*
+ * Default gutter
+ */
+/* Horizontal */
+.uk-grid {
+  margin-left: -30px;
+}
+.uk-grid > * {
+  padding-left: 30px;
+}
+/* Vertical */
+.uk-grid + .uk-grid,
+.uk-grid-margin,
+.uk-grid > * > .uk-panel + .uk-panel {
+  margin-top: 30px;
+}
+/* Large screen and bigger */
+@media (min-width: 1220px) {
+  /* Horizontal */
+  .uk-grid {
+    margin-left: -35px;
+  }
+  .uk-grid > * {
+    padding-left: 35px;
+  }
+  /* Vertical */
+  .uk-grid + .uk-grid,
+  .uk-grid-margin,
+  .uk-grid > * > .uk-panel + .uk-panel {
+    margin-top: 35px;
+  }
+}
+/*
+ * Collapse gutter
+ */
+/* Horizontal */
+.uk-grid-collapse {
+  margin-left: 0;
+}
+.uk-grid-collapse > * {
+  padding-left: 0;
+}
+/* Vertical */
+.uk-grid-collapse + .uk-grid-collapse,
+.uk-grid-collapse > .uk-grid-margin,
+.uk-grid-collapse > * > .uk-panel + .uk-panel {
+  margin-top: 0;
+}
+/*
+ * Small gutter
+ */
+/* Horizontal */
+.uk-grid-small {
+  margin-left: -10px;
+}
+.uk-grid-small > * {
+  padding-left: 10px;
+}
+/* Vertical */
+.uk-grid-small + .uk-grid-small,
+.uk-grid-small > .uk-grid-margin,
+.uk-grid-small > * > .uk-panel + .uk-panel {
+  margin-top: 10px;
+}
+/*
+ * Medium gutter
+ */
+/* Horizontal */
+.uk-grid-medium {
+  margin-left: -30px;
+}
+.uk-grid-medium > * {
+  padding-left: 30px;
+}
+/* Vertical */
+.uk-grid-medium + .uk-grid-medium,
+.uk-grid-medium > .uk-grid-margin,
+.uk-grid-medium > * > .uk-panel + .uk-panel {
+  margin-top: 30px;
+}
+/*
+ * Large gutter
+ */
+/* Large screen and bigger */
+@media (min-width: 960px) {
+  /* Horizontal */
+  .uk-grid-large {
+    margin-left: -35px;
+  }
+  .uk-grid-large > * {
+    padding-left: 35px;
+  }
+  /* Vertical */
+  .uk-grid-large + .uk-grid-large,
+  .uk-grid-large-margin,
+  .uk-grid-large > * > .uk-panel + .uk-panel {
+    margin-top: 35px;
+  }
+}
+/* Extra Large screens */
+@media (min-width: 1220px) {
+  /* Horizontal */
+  .uk-grid-large {
+    margin-left: -50px;
+  }
+  .uk-grid-large > * {
+    padding-left: 50px;
+  }
+  /* Vertical */
+  .uk-grid-large + .uk-grid-large,
+  .uk-grid-large-margin,
+  .uk-grid-large > * > .uk-panel + .uk-panel {
+    margin-top: 50px;
+  }
+}
+/* Modifier: `uk-grid-divider`
+ ========================================================================== */
+/*
+ * Horizontal divider
+ * Only works with the default gutter. Does not work with gutter collapse, small or large.
+ * Does not work with `uk-push-*`, `uk-pull-*` and not if the columns float into the next row.
+ */
+.uk-grid-divider:not(:empty) {
+  margin-left: -30px;
+  margin-right: -30px;
+}
+.uk-grid-divider > * {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.uk-grid-divider > [class*='uk-width-1-']:not(.uk-width-1-1):nth-child(n+2),
+.uk-grid-divider > [class*='uk-width-2-']:nth-child(n+2),
+.uk-grid-divider > [class*='uk-width-3-']:nth-child(n+2),
+.uk-grid-divider > [class*='uk-width-4-']:nth-child(n+2),
+.uk-grid-divider > [class*='uk-width-5-']:nth-child(n+2),
+.uk-grid-divider > [class*='uk-width-6-']:nth-child(n+2),
+.uk-grid-divider > [class*='uk-width-7-']:nth-child(n+2),
+.uk-grid-divider > [class*='uk-width-8-']:nth-child(n+2),
+.uk-grid-divider > [class*='uk-width-9-']:nth-child(n+2) {
+  border-left: 2px solid #eaeaea;
+}
+/* Tablet and bigger */
+@media (min-width: 768px) {
+  .uk-grid-divider > [class*='uk-width-medium-']:not(.uk-width-medium-1-1):nth-child(n+2) {
+    border-left: 2px solid #eaeaea;
+  }
+}
+/* Desktop and bigger */
+@media (min-width: 960px) {
+  .uk-grid-divider > [class*='uk-width-large-']:not(.uk-width-large-1-1):nth-child(n+2) {
+    border-left: 2px solid #eaeaea;
+  }
+}
+/* Large screen and bigger */
+@media (min-width: 1220px) {
+  /*
+     * Large gutter
+     */
+  .uk-grid-divider:not(:empty) {
+    margin-left: -35px;
+    margin-right: -35px;
+  }
+  .uk-grid-divider > * {
+    padding-left: 35px;
+    padding-right: 35px;
+  }
+  .uk-grid-divider:empty {
+    margin-top: 35px;
+    margin-bottom: 35px;
+  }
+}
+/*
+ * Vertical divider
+ */
+.uk-grid-divider:empty {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-top: 2px solid #eaeaea;
+}
+/* Match panels in grids
+ ========================================================================== */
+/*
+ * 1. Behave like a block element
+ */
+.uk-grid-match > * {
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  /* 1 */
+  -ms-flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+.uk-grid-match > * > * {
+  /* 1 */
+  -ms-flex: none;
+  -webkit-flex: none;
+  flex: none;
+  box-sizing: border-box;
+  width: 100%;
+}
+/* Even grid cell widths
+ ========================================================================== */
+[class*='uk-grid-width'] > * {
+  box-sizing: border-box;
+  width: 100%;
+}
+.uk-grid-width-1-2 > * {
+  width: 50%;
+}
+.uk-grid-width-1-3 > * {
+  width: 33.333%;
+}
+.uk-grid-width-1-4 > * {
+  width: 25%;
+}
+.uk-grid-width-1-5 > * {
+  width: 20%;
+}
+.uk-grid-width-1-6 > * {
+  width: 16.666%;
+}
+.uk-grid-width-1-10 > * {
+  width: 10%;
+}
+.uk-grid-width-auto > * {
+  width: auto;
+}
+/* Phone landscape and bigger */
+@media (min-width: 480px) {
+  .uk-grid-width-small-1-1 > * {
+    width: 100%;
+  }
+  .uk-grid-width-small-1-2 > * {
+    width: 50%;
+  }
+  .uk-grid-width-small-1-3 > * {
+    width: 33.333%;
+  }
+  .uk-grid-width-small-1-4 > * {
+    width: 25%;
+  }
+  .uk-grid-width-small-1-5 > * {
+    width: 20%;
+  }
+  .uk-grid-width-small-1-6 > * {
+    width: 16.666%;
+  }
+  .uk-grid-width-small-1-10 > * {
+    width: 10%;
+  }
+}
+/* Tablet and bigger */
+@media (min-width: 768px) {
+  .uk-grid-width-medium-1-1 > * {
+    width: 100%;
+  }
+  .uk-grid-width-medium-1-2 > * {
+    width: 50%;
+  }
+  .uk-grid-width-medium-1-3 > * {
+    width: 33.333%;
+  }
+  .uk-grid-width-medium-1-4 > * {
+    width: 25%;
+  }
+  .uk-grid-width-medium-1-5 > * {
+    width: 20%;
+  }
+  .uk-grid-width-medium-1-6 > * {
+    width: 16.666%;
+  }
+  .uk-grid-width-medium-1-10 > * {
+    width: 10%;
+  }
+}
+/* Desktop and bigger */
+@media (min-width: 960px) {
+  .uk-grid-width-large-1-1 > * {
+    width: 100%;
+  }
+  .uk-grid-width-large-1-2 > * {
+    width: 50%;
+  }
+  .uk-grid-width-large-1-3 > * {
+    width: 33.333%;
+  }
+  .uk-grid-width-large-1-4 > * {
+    width: 25%;
+  }
+  .uk-grid-width-large-1-5 > * {
+    width: 20%;
+  }
+  .uk-grid-width-large-1-6 > * {
+    width: 16.666%;
+  }
+  .uk-grid-width-large-1-10 > * {
+    width: 10%;
+  }
+}
+/* Large screen and bigger */
+@media (min-width: 1220px) {
+  .uk-grid-width-xlarge-1-1 > * {
+    width: 100%;
+  }
+  .uk-grid-width-xlarge-1-2 > * {
+    width: 50%;
+  }
+  .uk-grid-width-xlarge-1-3 > * {
+    width: 33.333%;
+  }
+  .uk-grid-width-xlarge-1-4 > * {
+    width: 25%;
+  }
+  .uk-grid-width-xlarge-1-5 > * {
+    width: 20%;
+  }
+  .uk-grid-width-xlarge-1-6 > * {
+    width: 16.666%;
+  }
+  .uk-grid-width-xlarge-1-10 > * {
+    width: 10%;
+  }
+}
+/* Sub-objects: `uk-width-*`
+ ========================================================================== */
+[class*='uk-width'] {
+  box-sizing: border-box;
+  width: 100%;
+}
+/*
+ * Widths
+ */
+/* Whole */
+.uk-width-1-1 {
+  width: 100%;
+}
+/* Halves */
+.uk-width-1-2,
+.uk-width-2-4,
+.uk-width-3-6,
+.uk-width-5-10 {
+  width: 50%;
+}
+/* Thirds */
+.uk-width-1-3,
+.uk-width-2-6 {
+  width: 33.333%;
+}
+.uk-width-2-3,
+.uk-width-4-6 {
+  width: 66.666%;
+}
+/* Quarters */
+.uk-width-1-4 {
+  width: 25%;
+}
+.uk-width-3-4 {
+  width: 75%;
+}
+/* Fifths */
+.uk-width-1-5,
+.uk-width-2-10 {
+  width: 20%;
+}
+.uk-width-2-5,
+.uk-width-4-10 {
+  width: 40%;
+}
+.uk-width-3-5,
+.uk-width-6-10 {
+  width: 60%;
+}
+.uk-width-4-5,
+.uk-width-8-10 {
+  width: 80%;
+}
+/* Sixths */
+.uk-width-1-6 {
+  width: 16.666%;
+}
+.uk-width-5-6 {
+  width: 83.333%;
+}
+/* Tenths */
+.uk-width-1-10 {
+  width: 10%;
+}
+.uk-width-3-10 {
+  width: 30%;
+}
+.uk-width-7-10 {
+  width: 70%;
+}
+.uk-width-9-10 {
+  width: 90%;
+}
+/* Phone landscape and bigger */
+@media (min-width: 480px) {
+  /* Whole */
+  .uk-width-small-1-1 {
+    width: 100%;
+  }
+  /* Halves */
+  .uk-width-small-1-2,
+  .uk-width-small-2-4,
+  .uk-width-small-3-6,
+  .uk-width-small-5-10 {
+    width: 50%;
+  }
+  /* Thirds */
+  .uk-width-small-1-3,
+  .uk-width-small-2-6 {
+    width: 33.333%;
+  }
+  .uk-width-small-2-3,
+  .uk-width-small-4-6 {
+    width: 66.666%;
+  }
+  /* Quarters */
+  .uk-width-small-1-4 {
+    width: 25%;
+  }
+  .uk-width-small-3-4 {
+    width: 75%;
+  }
+  /* Fifths */
+  .uk-width-small-1-5,
+  .uk-width-small-2-10 {
+    width: 20%;
+  }
+  .uk-width-small-2-5,
+  .uk-width-small-4-10 {
+    width: 40%;
+  }
+  .uk-width-small-3-5,
+  .uk-width-small-6-10 {
+    width: 60%;
+  }
+  .uk-width-small-4-5,
+  .uk-width-small-8-10 {
+    width: 80%;
+  }
+  /* Sixths */
+  .uk-width-small-1-6 {
+    width: 16.666%;
+  }
+  .uk-width-small-5-6 {
+    width: 83.333%;
+  }
+  /* Tenths */
+  .uk-width-small-1-10 {
+    width: 10%;
+  }
+  .uk-width-small-3-10 {
+    width: 30%;
+  }
+  .uk-width-small-7-10 {
+    width: 70%;
+  }
+  .uk-width-small-9-10 {
+    width: 90%;
+  }
+}
+/* Tablet and bigger */
+@media (min-width: 768px) {
+  /* Whole */
+  .uk-width-medium-1-1 {
+    width: 100%;
+  }
+  /* Halves */
+  .uk-width-medium-1-2,
+  .uk-width-medium-2-4,
+  .uk-width-medium-3-6,
+  .uk-width-medium-5-10 {
+    width: 50%;
+  }
+  /* Thirds */
+  .uk-width-medium-1-3,
+  .uk-width-medium-2-6 {
+    width: 33.333%;
+  }
+  .uk-width-medium-2-3,
+  .uk-width-medium-4-6 {
+    width: 66.666%;
+  }
+  /* Quarters */
+  .uk-width-medium-1-4 {
+    width: 25%;
+  }
+  .uk-width-medium-3-4 {
+    width: 75%;
+  }
+  /* Fifths */
+  .uk-width-medium-1-5,
+  .uk-width-medium-2-10 {
+    width: 20%;
+  }
+  .uk-width-medium-2-5,
+  .uk-width-medium-4-10 {
+    width: 40%;
+  }
+  .uk-width-medium-3-5,
+  .uk-width-medium-6-10 {
+    width: 60%;
+  }
+  .uk-width-medium-4-5,
+  .uk-width-medium-8-10 {
+    width: 80%;
+  }
+  /* Sixths */
+  .uk-width-medium-1-6 {
+    width: 16.666%;
+  }
+  .uk-width-medium-5-6 {
+    width: 83.333%;
+  }
+  /* Tenths */
+  .uk-width-medium-1-10 {
+    width: 10%;
+  }
+  .uk-width-medium-3-10 {
+    width: 30%;
+  }
+  .uk-width-medium-7-10 {
+    width: 70%;
+  }
+  .uk-width-medium-9-10 {
+    width: 90%;
+  }
+}
+/* Desktop and bigger */
+@media (min-width: 960px) {
+  /* Whole */
+  .uk-width-large-1-1 {
+    width: 100%;
+  }
+  /* Halves */
+  .uk-width-large-1-2,
+  .uk-width-large-2-4,
+  .uk-width-large-3-6,
+  .uk-width-large-5-10 {
+    width: 50%;
+  }
+  /* Thirds */
+  .uk-width-large-1-3,
+  .uk-width-large-2-6 {
+    width: 33.333%;
+  }
+  .uk-width-large-2-3,
+  .uk-width-large-4-6 {
+    width: 66.666%;
+  }
+  /* Quarters */
+  .uk-width-large-1-4 {
+    width: 25%;
+  }
+  .uk-width-large-3-4 {
+    width: 75%;
+  }
+  /* Fifths */
+  .uk-width-large-1-5,
+  .uk-width-large-2-10 {
+    width: 20%;
+  }
+  .uk-width-large-2-5,
+  .uk-width-large-4-10 {
+    width: 40%;
+  }
+  .uk-width-large-3-5,
+  .uk-width-large-6-10 {
+    width: 60%;
+  }
+  .uk-width-large-4-5,
+  .uk-width-large-8-10 {
+    width: 80%;
+  }
+  /* Sixths */
+  .uk-width-large-1-6 {
+    width: 16.666%;
+  }
+  .uk-width-large-5-6 {
+    width: 83.333%;
+  }
+  /* Tenths */
+  .uk-width-large-1-10 {
+    width: 10%;
+  }
+  .uk-width-large-3-10 {
+    width: 30%;
+  }
+  .uk-width-large-7-10 {
+    width: 70%;
+  }
+  .uk-width-large-9-10 {
+    width: 90%;
+  }
+}
+/* Large screen and bigger */
+@media (min-width: 1220px) {
+  /* Whole */
+  .uk-width-xlarge-1-1 {
+    width: 100%;
+  }
+  /* Halves */
+  .uk-width-xlarge-1-2,
+  .uk-width-xlarge-2-4,
+  .uk-width-xlarge-3-6,
+  .uk-width-xlarge-5-10 {
+    width: 50%;
+  }
+  /* Thirds */
+  .uk-width-xlarge-1-3,
+  .uk-width-xlarge-2-6 {
+    width: 33.333%;
+  }
+  .uk-width-xlarge-2-3,
+  .uk-width-xlarge-4-6 {
+    width: 66.666%;
+  }
+  /* Quarters */
+  .uk-width-xlarge-1-4 {
+    width: 25%;
+  }
+  .uk-width-xlarge-3-4 {
+    width: 75%;
+  }
+  /* Fifths */
+  .uk-width-xlarge-1-5,
+  .uk-width-xlarge-2-10 {
+    width: 20%;
+  }
+  .uk-width-xlarge-2-5,
+  .uk-width-xlarge-4-10 {
+    width: 40%;
+  }
+  .uk-width-xlarge-3-5,
+  .uk-width-xlarge-6-10 {
+    width: 60%;
+  }
+  .uk-width-xlarge-4-5,
+  .uk-width-xlarge-8-10 {
+    width: 80%;
+  }
+  /* Sixths */
+  .uk-width-xlarge-1-6 {
+    width: 16.666%;
+  }
+  .uk-width-xlarge-5-6 {
+    width: 83.333%;
+  }
+  /* Tenths */
+  .uk-width-xlarge-1-10 {
+    width: 10%;
+  }
+  .uk-width-xlarge-3-10 {
+    width: 30%;
+  }
+  .uk-width-xlarge-7-10 {
+    width: 70%;
+  }
+  .uk-width-xlarge-9-10 {
+    width: 90%;
+  }
+}
+/* Sub-object: `uk-push-*` and `uk-pull-*`
+ ========================================================================== */
+/*
+ * Source ordering
+ * Works only with `uk-width-medium-*`
+ */
+/* Tablet and bigger */
+@media (min-width: 768px) {
+  [class*='uk-push-'],
+  [class*='uk-pull-'] {
+    position: relative;
+  }
+  /*
+     * Push
+     */
+  /* Halves */
+  .uk-push-1-2,
+  .uk-push-2-4,
+  .uk-push-3-6,
+  .uk-push-5-10 {
+    left: 50%;
+  }
+  /* Thirds */
+  .uk-push-1-3,
+  .uk-push-2-6 {
+    left: 33.333%;
+  }
+  .uk-push-2-3,
+  .uk-push-4-6 {
+    left: 66.666%;
+  }
+  /* Quarters */
+  .uk-push-1-4 {
+    left: 25%;
+  }
+  .uk-push-3-4 {
+    left: 75%;
+  }
+  /* Fifths */
+  .uk-push-1-5,
+  .uk-push-2-10 {
+    left: 20%;
+  }
+  .uk-push-2-5,
+  .uk-push-4-10 {
+    left: 40%;
+  }
+  .uk-push-3-5,
+  .uk-push-6-10 {
+    left: 60%;
+  }
+  .uk-push-4-5,
+  .uk-push-8-10 {
+    left: 80%;
+  }
+  /* Sixths */
+  .uk-push-1-6 {
+    left: 16.666%;
+  }
+  .uk-push-5-6 {
+    left: 83.333%;
+  }
+  /* Tenths */
+  .uk-push-1-10 {
+    left: 10%;
+  }
+  .uk-push-3-10 {
+    left: 30%;
+  }
+  .uk-push-7-10 {
+    left: 70%;
+  }
+  .uk-push-9-10 {
+    left: 90%;
+  }
+  /*
+     * Pull
+     */
+  /* Halves */
+  .uk-pull-1-2,
+  .uk-pull-2-4,
+  .uk-pull-3-6,
+  .uk-pull-5-10 {
+    left: -50%;
+  }
+  /* Thirds */
+  .uk-pull-1-3,
+  .uk-pull-2-6 {
+    left: -33.333%;
+  }
+  .uk-pull-2-3,
+  .uk-pull-4-6 {
+    left: -66.666%;
+  }
+  /* Quarters */
+  .uk-pull-1-4 {
+    left: -25%;
+  }
+  .uk-pull-3-4 {
+    left: -75%;
+  }
+  /* Fifths */
+  .uk-pull-1-5,
+  .uk-pull-2-10 {
+    left: -20%;
+  }
+  .uk-pull-2-5,
+  .uk-pull-4-10 {
+    left: -40%;
+  }
+  .uk-pull-3-5,
+  .uk-pull-6-10 {
+    left: -60%;
+  }
+  .uk-pull-4-5,
+  .uk-pull-8-10 {
+    left: -80%;
+  }
+  /* Sixths */
+  .uk-pull-1-6 {
+    left: -16.666%;
+  }
+  .uk-pull-5-6 {
+    left: -83.333%;
+  }
+  /* Tenths */
+  .uk-pull-1-10 {
+    left: -10%;
+  }
+  .uk-pull-3-10 {
+    left: -30%;
+  }
+  .uk-pull-7-10 {
+    left: -70%;
+  }
+  .uk-pull-9-10 {
+    left: -90%;
+  }
+}
+/*
+     * Horizontal divider
+     *
+     */
+.uk-grid-divider > [class*='uk-width-1-']:not(.uk-width-1-1):nth-child(n+2),
+.uk-grid-divider > [class*='uk-width-2-']:nth-child(n+2),
+.uk-grid-divider > [class*='uk-width-3-']:nth-child(n+2),
+.uk-grid-divider > [class*='uk-width-4-']:nth-child(n+2),
+.uk-grid-divider > [class*='uk-width-5-']:nth-child(n+2),
+.uk-grid-divider > [class*='uk-width-6-']:nth-child(n+2),
+.uk-grid-divider > [class*='uk-width-7-']:nth-child(n+2),
+.uk-grid-divider > [class*='uk-width-8-']:nth-child(n+2),
+.uk-grid-divider > [class*='uk-width-9-']:nth-child(n+2) {
+  border-left-style: dotted;
+  -webkit-border-image: url('../less/uikit/images/border_dotted_vertical.svg') 0 0 0 2 repeat;
+  border-image: url('../less/uikit/images/border_dotted_vertical.svg') 0 0 0 2 repeat;
+}
+/* Tablet and bigger */
+@media (min-width: 768px) {
+  .uk-grid-divider > [class*='uk-width-medium-']:not(.uk-width-medium-1-1):nth-child(n+2) {
+    border-left-style: dotted;
+    -webkit-border-image: url('../less/uikit/images/border_dotted_vertical.svg') 0 0 0 2 repeat;
+    border-image: url('../less/uikit/images/border_dotted_vertical.svg') 0 0 0 2 repeat;
+  }
+}
+/* Desktop and bigger */
+@media (min-width: 960px) {
+  .uk-grid-divider > [class*='uk-width-large-']:not(.uk-width-large-1-1):nth-child(n+2) {
+    border-left-style: dotted;
+    -webkit-border-image: url('../less/uikit/images/border_dotted_vertical.svg') 0 0 0 2 repeat;
+    border-image: url('../less/uikit/images/border_dotted_vertical.svg') 0 0 0 2 repeat;
+  }
+}
+/* ========================================================================
+   Component: Panel
+ ========================================================================== */
+/*
+ * 1. Needed for `a` elements
+ * 2. Create position context for badges
+ */
+.uk-panel {
+  /* 1 */
+  display: block;
+  /* 2 */
+  position: relative;
+}
+/*
+ * Allow panels to be anchors
+ */
+.uk-panel,
+.uk-panel:hover {
+  text-decoration: none;
+}
+/*
+ * Micro clearfix to make panels more robust
+ */
+.uk-panel:before,
+.uk-panel:after {
+  content: "";
+  display: table;
+}
+.uk-panel:after {
+  clear: both;
+}
+/*
+ * Remove margin from the last-child if not `uk-widget-title`
+ */
+.uk-panel > :not(.uk-panel-title):last-child {
+  margin-bottom: 0;
+}
+/* Sub-object: `uk-panel-title`
+ ========================================================================== */
+.uk-panel-title {
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #525252;
+}
+/* Sub-object: `uk-panel-badge`
+ ========================================================================== */
+.uk-panel-badge {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 1;
+}
+/* Sub-object: `uk-panel-teaser`
+ ========================================================================== */
+.uk-panel-teaser {
+  margin-bottom: 20px;
+}
+/* Sub-object: `uk-panel-body`
+ ========================================================================== */
+.uk-panel-body {
+  padding: 30px;
+}
+/* Modifier: `uk-panel-box`
+ ========================================================================== */
+.uk-panel-box {
+  padding: 30px;
+  background: #ffffff;
+  color: #525252;
+  border: 1px solid #eaeaea;
+}
+.uk-panel-box-hover:hover {
+  color: #525252;
+}
+.uk-panel-box .uk-panel-title {
+  color: #525252;
+}
+.uk-panel-box .uk-panel-badge {
+  top: 0;
+  right: 10px;
+}
+.uk-panel-box > .uk-panel-teaser {
+  margin-top: -30px;
+  margin-left: -30px;
+  margin-right: -30px;
+}
+/*
+ * Nav in panel
+ */
+.uk-panel-box > .uk-nav-side {
+  margin: 0 -30px;
+}
+/*
+ * Sub-modifier: `uk-panel-box-primary`
+ */
+.uk-panel-box-primary {
+  background-color: #b7c261;
+  color: rgba(255, 255, 255, 0.9);
+  border: none;
+  box-shadow: inset 0 0 9px rgba(161, 173, 67, 0.8);
+}
+.uk-panel-box-primary > a:not([class]),
+.uk-panel-box-primary > :not([class*='uk-nav']) a:not([class]) {
+  color: #7b8629;
+}
+.uk-panel-box-primary > a:not([class]):hover,
+.uk-panel-box-primary > :not([class*='uk-nav']) a:not([class]):hover {
+  color: #697223;
+}
+.uk-panel-box-primary:before {
+  content: none;
+}
+.uk-panel-box-primary-hover:hover {
+  color: rgba(255, 255, 255, 0.9);
+}
+.uk-panel-box-primary .uk-panel-title {
+  color: #ffffff;
+}
+/*
+ * Sub-modifier: `uk-panel-box-secondary`
+ */
+.uk-panel-box-secondary {
+  background-color: #fafafa;
+  color: #525252;
+}
+.uk-panel-box-secondary:before {
+  content: none;
+}
+.uk-panel-box-secondary-hover:hover {
+  color: #525252;
+}
+.uk-panel-box-secondary .uk-panel-title {
+  color: #525252;
+}
+/* Modifier: `uk-panel-hover`
+ ========================================================================== */
+.uk-panel-hover {
+  padding: 30px;
+  color: #444444;
+  border: 1px solid transparent;
+}
+.uk-panel-hover:hover {
+  background: #ffffff;
+  color: #444444;
+  border-color: #eaeaea;
+}
+.uk-panel-hover .uk-panel-badge {
+  top: 0;
+  right: 10px;
+}
+.uk-panel-hover > .uk-panel-teaser {
+  margin-top: -30px;
+  margin-left: -30px;
+  margin-right: -30px;
+}
+/* Modifier: `uk-panel-header`
+ ========================================================================== */
+.uk-panel-header .uk-panel-title {
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0);
+  color: #525252;
+}
+.uk-panel-header .uk-panel-title.uk-panel-title:after {
+  content: "";
+  display: block;
+  height: 10px;
+  margin-top: 10px;
+  background: url('../less/uikit/images/default/border_striped_horizontal.png') 0 0 repeat-x;
+}
+/* Modifier: `uk-panel-space`
+ ========================================================================== */
+.uk-panel-space {
+  padding: 30px;
+}
+.uk-panel-space .uk-panel-badge {
+  top: 30px;
+  right: 30px;
+}
+/* Modifier: `uk-panel-divider`
+ ========================================================================== */
+.uk-panel + .uk-panel-divider {
+  margin-top: 60px !important;
+}
+.uk-panel + .uk-panel-divider:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: -30px;
+  left: 0;
+  right: 0;
+  border-top: 1px solid #eaeaea;
+}
+/* Large screen and bigger */
+@media (min-width: 1220px) {
+  .uk-panel + .uk-panel-divider {
+    margin-top: 70px !important;
+  }
+  .uk-panel + .uk-panel-divider:before {
+    top: -35px;
+  }
+}
+/* ========================================================================
+   Component: Block
+ ========================================================================== */
+.uk-block {
+  position: relative;
+  box-sizing: border-box;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+/* Phone landscape and bigger */
+@media (min-width: 768px) {
+  .uk-block {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+}
+/*
+ * Micro clearfix to make blocks more robust
+ */
+.uk-block:before,
+.uk-block:after {
+  content: "";
+  display: table;
+}
+.uk-block:after {
+  clear: both;
+}
+/*
+ * Remove margin from the last-child
+ */
+.uk-block > :last-child {
+  margin-bottom: 0;
+}
+/* Padding Modifier
+ ========================================================================== */
+/*
+ * Large padding
+ */
+.uk-block-large {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+/* Tablets and bigger */
+@media (min-width: 768px) {
+  .uk-block-large {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+}
+/* Desktop and bigger */
+@media (min-width: 960px) {
+  .uk-block-large {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+}
+/* Color Modifier
+ ========================================================================== */
+/*
+ * Default
+ */
+.uk-block-default {
+  background: #ffffff;
+}
+/*
+ * Muted
+ */
+.uk-block-muted {
+  background: #f9f9f9;
+}
+/*
+ * Primary
+ */
+.uk-block-primary {
+  background: #00a8e6;
+}
+/*
+ * Secondary
+ */
+.uk-block-secondary {
+  background: #222222;
+}
+.uk-block-default + .uk-block-default,
+.uk-block-muted + .uk-block-muted,
+.uk-block-primary + .uk-block-primary,
+.uk-block-secondary + .uk-block-secondary {
+  padding-top: 0;
+}
+/* ========================================================================
+   Component: Article
+ ========================================================================== */
+/*
+ * Micro clearfix to make articles more robust
+ */
+.uk-article:before,
+.uk-article:after {
+  content: "";
+  display: table;
+}
+.uk-article:after {
+  clear: both;
+}
+/*
+ * Remove margin from the last-child
+ */
+.uk-article > :last-child {
+  margin-bottom: 0;
+}
+/*
+ * Vertical gutter for articles
+ */
+.uk-article + .uk-article {
+  margin-top: 30px;
+}
+/* Sub-object `uk-article-title`
+ ========================================================================== */
+.uk-article-title {
+  font-size: 40px;
+  line-height: 42px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.uk-article-title a {
+  color: inherit;
+  text-decoration: none;
+}
+/* Sub-object `uk-article-meta`
+ ========================================================================== */
+.uk-article-meta {
+  font-size: 18px;
+  line-height: 27px;
+  color: #777777;
+  font-family: 'Times New Roman';
+  font-style: italic;
+}
+/* Sub-object `uk-article-lead`
+ ========================================================================== */
+.uk-article-lead {
+  color: rgba(82, 82, 82, 0.8);
+  font-size: 20px;
+  line-height: 27px;
+  font-weight: normal;
+}
+/* Sub-object `uk-article-divider`
+ ========================================================================== */
+.uk-article-divider {
+  margin-bottom: 30px;
+  border-color: #eaeaea;
+}
+* + .uk-article-divider {
+  margin-top: 30px;
+}
+/* ========================================================================
+   Component: Comment
+ ========================================================================== */
+/* Sub-object `uk-comment-header`
+ ========================================================================== */
+.uk-comment-header {
+  margin-bottom: 20px;
+}
+
+
+
+/* ========================================================================
+   Because It Was 3:55: -Steven
+ ========================================================================== */
+
+/* This forces the footer to have space at the bottom and forces the text to be grey. */
+body {padding-bottom:40px;color:#505359 !important;}
+
+/* This disables that blue outline when clicking on videos. */
+video, video:hover, video:active {outline:none;}
+
+/* This makes sure that all close buttons on light boxes/overlays will always be in the front layer */
+.uk-close {z-index:1111;}
+
+/* This makes sure that the footer background is the same as the rest of the page */
+footer {background-color:transparent;}
+
+/* 
+.uk-visible-small, .uk-visible-medium, .uk-visible-large {
+  justify-content:center;
+  display:flex;
+} */
+
+/* This tells the navbar links to be to the center */
+.uk-navbar-nav {
+    margin-left:0xp;
+}
+
+/* This tells the navbar links to be a grey color */
+.uk-navbar-nav a {color:#455059 !important;margin: 0 auto !important;}
+
+/* This tells the navbar links to change to a lighter color when you hover over them */
+.uk-navbar-nav .uk-dropdown-navbar a:hover {background-color:#fafafa !important;}
+
+/* This tells the page to start right after the navbar except for the Home page */
+.tm-page {margin-top:0px;}
+
+/* This tells the site to make the color of paragraphs, header 1s, header 2s, header 3s, header 4s, header 5s, header 6s, and buttons to be a grey color */
+p, h1, h2, h3, h4, h5, h6, button, uk-tab {color:#505359;}
+
+/* This tells all <em> tags to be pink */
+em {color:#CA596B !important;}
+
+/* Changes the color of the subnav to a dark gray */
+.uk-subnav li a {
+  color:#606060;
+}
+
+/* This tells all placeholder areas to have a gray color for the text */
+/* Was created for the search bar nav */
+.uk-search-field::placeholder {
+  color:#455059 !important;
+}
+
+#box-shadow-on-hover {transition:0.3s;}
+#box-shadow-on-hover:hover {box-shadow:0px 0px 30px 2px #888;}
+.bsoh-gray {background-color: #dddada;padding: 30px 20px 10px 20px;}
