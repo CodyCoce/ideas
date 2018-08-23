@@ -1,0 +1,31 @@
+<p><img src="images/banners/Our-team.jpeg" alt="Our-team.jpeg" style="width: 100%; height: 227px;" /></p>
+<style type="text/css">#our-team-table, #our-team-table td {text-align:center;}
+#our-team-table td {padding:50px;font-weight:bold;}</style>
+<center>
+<table id="our-team-table">
+<tbody>
+<tr>
+<td><img src="images/interns/dianna-our-team.jpg" width="175" height="264" alt="Dianna" /><br />
+<p>Dianna Thompson<br /> Founder &amp; President</p>
+</td>
+<td><img src="images/interns/jaclyn-our-team.png" alt="Jaclyn Moyer Headshot" width="175" height="264" /><br />
+<p>Jaclyn Moyer<br /> Business Administrator</p>
+</td>
+<td><img src="images/interns/baljot-our-team.jpg" alt="Baljot" width="175" height="264" /><br />
+<p>Baljot Sekhon<br /> Intern Coordinator</p>
+</td>
+</tr>
+<tr>
+<td><img src="images/interns/steven-our-team.jpg" alt="Steven" width="175" height="264" /><br />
+<p>Steven Larner<br /> Web Development</p>
+</td>
+<td><img src="images/interns/anthony-our-team.jpg" alt="Anthony" width="175" height="264" /><br />
+<p>Anthony Colin<br /> Graphic Design</p>
+</td>
+<td><img src="images/interns/skyler-our-team.png" alt="Skyler" width="175" height="264" /><br />
+<p>Skyler Poulton<br /> Video Production</p>
+</td>
+</tr>
+</tbody>
+</table>
+</center>
