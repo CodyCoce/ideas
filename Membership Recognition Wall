@@ -1,14 +1,10 @@
 <!-- Photo banner -->
 <p><img src="images/banners/Membership-recognition-wall.jpg" alt="Membership-recognition-wall.jpg" style="width: 100%;" /></p>
-
 <!-- Whitespace -->
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
-
-
-<style type="text/css">
-/* Makes the background a white brick wall */
+<style type="text/css">/* Makes the background a white brick wall */
 #table-container {
 	background-image:url('http://www.womenagainstpaternityfraud.com/wapf2018/images/memership_brickwall.jpg');
 	width:100%;
@@ -112,8 +108,7 @@
 	opacity:0;
 	pointer-events:none;
 	border:none !important;
-}
-</style>
+}</style>
 <div id="table-container" class="table-container-size">
 <table class="table">
 <tbody>
@@ -135,7 +130,7 @@
 <td class="card">
 <div class="image"><img src="images/LindaSantos.jpg" alt="Linda Santos" /></div>
 <div class="text">
-<p ><strong>Linda Santos</strong><br /> Premium Member<br /> December 2015</p>
+<p><strong>Linda Santos</strong><br /> Premium Member<br /> December 2015</p>
 </div>
 </td>
 </tr>
@@ -157,16 +152,14 @@
 </div>
 </td>
 <td class="whitespace">&nbsp;</td>
-<td class="card card-empty">
-<div class="image"><img src="http://www.womenagainstpaternityfraud.org/images/recognition/ryan_mccuistion.jpg" alt="Ryan McCuistion" /></div>
+<td class="card">
+<div class="image" style="padding: 55px 0px 50px 0px !important;"><img src="images/Meera_Webster.png" alt="Meera Webster" /></div>
 <div class="text">
-<p><strong>Ryan McCuistion</strong><br /> Premium Member<br /> February 2016</p>
+<p><strong>Meera Webster</strong><br /> Premium Member<br /> August 2017</p>
 </div>
 </td>
 </tr>
-<!-- This is a template when you want to add more members -->
-
-    <!-- Use content inside this comment and edit it
+<!-- This is a template when you want to add more members --> <!-- Use content inside this comment and edit it
 		<td class='card'>
 			<div class='image'>
 				<img src="images/recognition/[IMAGE]" alt="[IMAGE]" />
@@ -177,9 +170,6 @@
 				[MONTH] [YEAR]</p>
 			</div>
 		</td> 
-    -->
-
-<!-- You should edit the parts that say "[NAME]", "[IMAGE]", "[LEVEL]", "[MONTH]", and "[YEAR]" --></tr>
-</tbody>
+    --> <!-- You should edit the parts that say "[NAME]", "[IMAGE]", "[LEVEL]", "[MONTH]", and "[YEAR]" --></tbody>
 </table>
 </div>
