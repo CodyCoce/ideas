@@ -1,5 +1,4 @@
-<style type="text/css">
-/* When the size of the window is at most 770 pixels then the module changes its top margin to be 0 pixels */
+<style type="text/css">/* When the size of the window is at most 770 pixels then the module changes its top margin to be 0 pixels */
 @media (max-width: 770px) {
   #height-adjuster_media-query {
     margin-top:0px;
@@ -23,24 +22,21 @@
 .uk-tab li a {color:#505359;}
 .uk-active {color:#505359 !important;}
 #tab-content {text-align:center;}
-</style>
 
+/* Gets rid of circles on the items */
+.uk-switcher, .uk-switcher li {list-style-type: none !important;}</style>
 <!-- The header -->
 <div class="uk-panel uk-text-center" id="height-adjuster_media-query">
 <h1 class="uk-h2">ANNOUNCEMENTS &amp; NEWS ARTICLES</h1>
-
 <!-- Whitespace -->
 <p>&nbsp;</p>
-
 </div>
-
 <!-- The 3 listed tabs -->
 <ul class="uk-tab list-inline" data-uk-tab="{connect:'#tab-content'}">
 <li class="uk-active"><a href="#">News Articles</a></li>
 <li><a href="#">Announcements</a></li>
 <li><a href="#">WAPF News</a></li>
 </ul>
-
 <!-- The content inside the 3 listed tabs -->
 <ul id="tab-content" class="uk-switcher uk-margin">
 <li class="uk-active">{module 111}<center><a href="index.php?option=com_content&amp;view=category&amp;id=80&amp;Itemid=520">(Click Here to Read More)</a></center></li>
