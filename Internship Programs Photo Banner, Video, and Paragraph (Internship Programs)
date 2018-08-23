@@ -1,8 +1,6 @@
 <!-- Photo banner -->
 <p><img src="images/banners/Internship-Programs.jpg" alt="Internship-Programs.jpg" style="width: 100%;" /></p>
-
-<style type="text/css">
-/* Tells the table to take 100% of the available space */
+<style type="text/css">/* Tells the table to take 100% of the available space */
 .internship-programs-table {
 	width:100%;
 }
@@ -11,58 +9,45 @@
 .internship-programs-table tr td {
 	width:40%;
 	text-align:center;
-}
-</style>
-
+}</style>
 <!-- The video -->
 <div>
 <video type="video/mp4" width="560" height="315"><source type="video/mp4" src="images/videos/WAPF Intern Testimonials.mp4" frameborder="0" allowfullscreen="allowfullscreen" /></video>
 </div>
-
 <!-- The paragraph -->
 <p>Women Against Paternity Fraud (WAPF) offers many internship opportunities for energetic, talented, and highly motivated university and graduate students. Our current program is located in Bakersfield, California. If you are interested in learning about different internship positions offered, click on a position to read further.</p>
-
 <!-- List of positions -->
 <table align="center" class="internship-programs-table">
 <tbody>
 <tr>
-<td>
+<td style="text-align: center; font-size: 20pt; line-height: 21pt;" valign="top">
 <h1>PROGRAM POSITIONS:</h1>
-<p><a href="index.php?option=com_content&amp;view=article&amp;id=142&amp;Itemid=550" title="Graphic Arts Internships">GRAPHIC DESIGN</a></p>
-<p><a href="index.php?option=com_content&amp;view=article&amp;id=126&amp;Itemid=551" title="Information Technology Internships">INFORMATION TECHNOLOGY</a></p>
-<p><a href="index.php?option=com_content&amp;view=article&amp;id=144&amp;Itemid=542" title="Intern Coordinator Internships">INTERN COORDINATOR</a></p>
-<p><a href="index.php?option=com_content&amp;view=article&amp;id=135&amp;Itemid=552" title="Journalism Internships">JOURNALISM</a></p>
-<p><a href="index.php?option=com_content&amp;view=article&amp;id=136&amp;Itemid=553" title="Management Internships">MANAGEMENT</a></p>
-<p><a href="index.php?option=com_content&amp;view=article&amp;id=137&amp;Itemid=554" title="Public Relations Internships">PUBLIC RELATIONS</a></p>
-<p><a href="index.php?option=com_content&amp;view=article&amp;id=138&amp;Itemid=555" title="Social Media Manager Internships">SOCIAL MEDIA MANAGER</a></p>
-<p><a href="index.php?option=com_content&amp;view=article&amp;id=139&amp;Itemid=556" title="Sales / Marketing Internships">SALES / MARKETING</a></p>
-<p><a href="index.php?option=com_content&amp;view=article&amp;id=140&amp;Itemid=557" title="Video Production Internships">VIDEO PRODUCTION</a></p>
-<p><a href="index.php?option=com_content&amp;view=article&amp;id=141&amp;Itemid=558" title="Web Development Internships">WEB DEVELOPMENT</a></p>
-<p><a href="index.php?option=com_content&amp;view=article&amp;id=448&amp;Itemid=558" title="Community Outreach">COMMUNITY OUTREACH</a></p>
+<p><a href="index.php?option=com_content&amp;view=article&amp;id=142&amp;Itemid=550" title="Graphic Arts Internships" target="_blank">GRAPHIC DESIGN</a></p>
+<p><a href="index.php?option=com_content&amp;view=article&amp;id=143&amp;Itemid=551" title="Information Technology Internships" target="_blank">INFORMATION TECHNOLOGY</a></p>
+<p><a href="index.php?option=com_content&amp;view=article&amp;id=144&amp;Itemid=542" title="Intern Coordinator Internships" target="_blank">INTERN COORDINATOR</a></p>
+<p><a href="index.php?option=com_content&amp;view=article&amp;id=128&amp;Itemid=552" title="Journalism Internships" target="_blank">JOURNALISM</a></p>
+<p><a href="index.php?option=com_content&amp;view=article&amp;id=136&amp;Itemid=553" title="Management Internships" target="_blank">MANAGEMENT</a></p>
+<p><a href="index.php?option=com_content&amp;view=article&amp;id=137&amp;Itemid=554" title="Public Relations Internships" target="_blank">PUBLIC RELATIONS</a></p>
+<p><a href="index.php?option=com_content&amp;view=article&amp;id=138&amp;Itemid=555" title="Social Media Manager Internships" target="_blank">SOCIAL MEDIA MANAGER</a></p>
+<p><a href="index.php?option=com_content&amp;view=article&amp;id=139&amp;Itemid=556" title="Sales / Marketing Internships" target="_blank">SALES / MARKETING</a></p>
+<p><a href="index.php?option=com_content&amp;view=article&amp;id=140&amp;Itemid=557" title="Video Production Internships" target="_blank">VIDEO PRODUCTION</a></p>
+<p><a href="index.php?option=com_content&amp;view=article&amp;id=141&amp;Itemid=558" title="Web Development Internships" target="_blank">WEB DEVELOPMENT</a></p>
+<p><a href="index.php?option=com_content&amp;view=article&amp;id=448&amp;Itemid=558" title="Community Outreach" target="_blank">COMMUNITY OUTREACH</a></p>
 </td>
-
 <!-- The PDF -->
-<td><a href="images/interns/WAPFApplication.pdf" title="Download Application Form" target="_blank"><img src="images/interns/WAPFApplication.png" alt="WAPFApplication" /></a><br /> <a href="images/interns/WAPFApplication.pdf" title="Download Application Form" target="_blank">Download Form</a></td>
+<td><a href="images/interns/WAPFApplication.pdf" title="Download Application Form" target="_blank"><img src="images/interns/WAPFApplication.png" alt="WAPFApplication" id="box-shadow-on-hover" /></a><br /> <a href="images/interns/WAPFApplication.pdf" title="Download Application Form" target="_blank">Download Form</a></td>
 </tr>
 </tbody>
 </table>
-
 <!-- Apply paragraph -->
 <p>To apply, email application to <a href="mailto:director@womenagainstpaternityfraud.org">director@women<wbr />againstpaternity<wbr />fraud.org</a> or call to schedule an interview at (661) 829-6807.</p>
-
 <!-- Second paragraph -->
 <p>Interns in our program will receive practical experience which will give them an advantage when applying for positions in the outside job market. Interns will work on individual projects and are also encouraged to work alongside other interns in various positions. Our Summer internship also has one, large-scale group project that each intern will participate in so that each intern can collaborate and cross-train with other interns in different areas of expertise and gain a broader scope of experience for their résumé and future employment.</p>
-
 <p>Our internship allows students to take what they have been studying in school and apply it to a real world experience. We challenge our interns to learn as much as they can during their internship and to reach out to their comfort zone so that they will learn valuable skills that prepare them for their future careers. Interns will gain experience in managing day-to-day operations.</p>
-
 <p>Our internship program was established in 2014 and has given recommendations to employers that have successfully landed our interns jobs. This is a wonderful opportunity for students to develop and better their readiness for the workforce.</p>
-
 <ol><span style="margin: 0px 0px 0px -30px; padding: 0px;">Interns who successfully complete our program will obtain:</span>
 <li>A letter of reference/recommendation</li>
 <li>A "Certificate of Completion" as proof of participation in the program</li>
 </ol>
-
 <p>Questions regarding the program and the intern positions can be directed to Jaclyn Moyer our Sr. VP of Programs. She can be reached by phone at (202)-802-6021 or by email at <a href="mailto:jmoyer0320@gmail.com">jmoyer0320@gmail.com</a> or you can call our office at (661)-829-6807.</p>
-
-<!-- Image --> 
-<img src="images/Intern_Group_Picture_Top_2x_Cropped.jpg" alt="Intern Group Picture Top 2x Cropped" />
+<!-- Image --> <img src="images/Intern_Group_Picture_Top_2x_Cropped.jpg" alt="Intern Group Picture Top 2x Cropped" />
