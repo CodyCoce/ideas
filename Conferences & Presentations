@@ -1,12 +1,9 @@
-<!-- Photo banner -->
-<p style="text-align: center;"><img src="images/banners/help-and-information.jpeg" alt="help-and-information.jpeg" style="width: 850px;" /></p>
-
+<!-- Photo banner -->https://github.com/CodyCoce/ideas/tree/master/Conferences%20%26%20Presentations
+<p style="text-align: center;"><img src="images/banners/Conference.jpg" alt="Conference.jpg" style="width: 850px;" /></p>
 <!-- Whitespace -->
 <p>&nbsp;</p>
-
 <!-- Title -->
-<p style="text-align: center;"><span style="font-size: 24pt;color: #d05e70;">Presentations at Press Conferences, Conferences, &amp; Events</span></p>
-
+<p style="text-align: center;"><span style="font-size: 24pt; color: #d05e70;">Presentations at Press Conferences, Conferences, &amp; Events</span></p>
 <!-- Two videos -->
 <table align="center" style="width: 100%;">
 <tbody>
@@ -16,4 +13,3 @@
 </tr>
 </tbody>
 </table>
-<br />
