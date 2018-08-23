@@ -1,11 +1,8 @@
 <!-- Photo banner -->
 <p><img src="images/banners/WAPF-Advisory-Board.jpg" alt="WAPF-Advisory-Board.jpg" style="width: 100%;" /></p>
-
 <!-- Whitespace-->
 <p>&nbsp;</p>
-
-<style type="text/css">
-/* Tells both tables to be 100% available width and to have the background color be transparent */
+<style type="text/css">/* Tells both tables to be 100% available width and to have the background color be transparent */
 #top-table, #bottom-table {width: 100%; background-color:transparent;}
 
 /* Tells the <tr>s of both tables to have the background color of white */
@@ -35,162 +32,130 @@
 #top-table span, #bottom-table span {color:#c35967;}
 
 /* Some whitespace for the bottom table */
-#bottom-table #bottom-table-td-two {padding:1px;width:4px;}
-</style>
-
+#bottom-table #bottom-table-td-two {padding:1px;width:4px;}</style>
 <table id="top-table">
 <tbody>
-<tr>
-
-<!-- First card -->
-<td id="top-table-td"><a href="about-us/advisory-board/473-alicia-thompson-advisory-page">
+<tr><!-- First card -->
+<td id="top-table-td"><a href="about-us/advisory-board/473-alicia-thompson-advisory-page" target="_blank">
 <div style="padding: 30px 20px 10px 20px; background-color: #dddada; border: none; transition: 0.3s;"><img src="images/advisors/Alicia_.jpg" alt="Alicia" />
 <h5>Alicia Thompson<br /> California<br /> <span>Read More About Alicia</span></h5>
 </div>
 </a></td>
-
 <!-- Whitespace -->
 <td id="top-table-td-whitespace">&nbsp;</td>
-
 <!-- Second card -->
-<td id="top-table-td"><a href="about-us/advisory-board/474-audrey-devine-advisory-page">
+<td id="top-table-td"><a href="about-us/advisory-board/474-audrey-devine-advisory-page" target="_blank">
 <div style="padding: 30px 20px 10px 20px; background-color: #dddada; border: none; transition: 0.3s;"><img src="images/advisors/Audrey_realtor.jpg" alt="Audrey" />
 <h5>Audrey Devine<br /> California<br /> <span>Read More About Audrey</span></h5>
 </div>
 </a></td>
-
 <!-- Whitespace -->
 <td id="top-table-td-whitespace">&nbsp;</td>
-
 <!-- Third card -->
-<td id="top-table-td"><a href="about-us/advisory-board/475-murray-davis-advisory-page">
+<td id="top-table-td"><a href="about-us/advisory-board/475-murray-davis-advisory-page" target="_blank">
 <div style="padding: 30px 20px 10px 20px; background-color: #dddada; border: none; transition: 0.3s;"><img src="images/advisors/MD_3.5X5_300dpi_RGB.jpg" alt="Murray" />
 <h5>Murray Davis, M.A. SJ<br /> Michigan<br /> <span>Read More About Murray</span></h5>
 </div>
 </a></td>
 </tr>
-
 <!-- Whitespace -->
 <tr>
 <td colspan="5" style="padding: 20px; background-color: transparent;">&nbsp;</td>
 </tr>
-
-<tr>
-
-<!-- Fourth card -->
-<td id="top-table-td"><a href="about-us/advisory-board/476-sergeant-brandon-parsons-advisory-page">
+<tr><!-- Fourth card -->
+<td id="top-table-td"><a href="about-us/advisory-board/476-sergeant-brandon-parsons-advisory-page" target="_blank">
 <div style="padding: 30px 20px 10px 20px; background-color: #dddada; border: none; transition: 0.3s;"><img src="images/advisors/sgtbrandonparsons.jpg" alt="Brandon" />
 <h5>Sgt. Brandon Parsons<br /> California<br /> <span>Read More About Brandon</span></h5>
 </div>
 </a></td>
-
 <!-- Whitespace -->
 <td id="top-table-td-whitespace">&nbsp;</td>
-
 <!-- Fifth card -->
-<td id="top-table-td"><a href="about-us/advisory-board/477-samantha-jadin-advisory-page">
+<td id="top-table-td"><a href="about-us/advisory-board/477-samantha-jadin-advisory-page" target="_blank">
 <div style="padding: 30px 20px 10px 20px; background-color: #dddada; border: none; transition: 0.3s;"><img src="images/Samantha_Jadin.png" alt="Samantha" />
 <h5>Samantha Jadin<br /> Colorado<br /> <span>Read More About Samantha</span></h5>
 </div>
 </a></td>
-
 <!-- Whitespace -->
 <td id="top-table-td-whitespace">&nbsp;</td>
-
 <!-- Sixth card -->
-<td id="top-table-td"><a href="about-us/advisory-board/478-cheryl-king-advisory-page">
+<td id="top-table-td"><a href="about-us/advisory-board/478-cheryl-king-advisory-page" target="_blank">
 <div style="padding: 30px 20px 10px 20px; background-color: #dddada; border: none; transition: 0.3s;"><img src="images/cherylking.jpg" alt="Cheryl" />
 <h5>Cheryl King<br /> Australia<br /> <span>Read More About Cheryl</span></h5>
 </div>
 </a></td>
 </tr>
-
 <!-- Whitespace -->
 <tr style="background-color: transparent;">
 <td colspan="5" style="padding: 20px; background-color: transparent;">&nbsp;</td>
 </tr>
-<tr>
-
-<!-- Seventh card -->
-<td id="top-table-td"><a href="about-us/advisory-board/479-jessica-kunze-advisory-page">
+<tr><!-- Seventh card -->
+<td id="top-table-td"><a href="about-us/advisory-board/479-jessica-kunze-advisory-page" target="_blank">
 <div style="padding: 30px 20px 10px 20px; background-color: #dddada; border: none; transition: 0.3s;"><img src="images/advisors/jessicaweb.jpg" alt="Jessica" />
 <h5>Jessica Kunze<br /> California<br /> <span>Read More About Jessica</span></h5>
 </div>
 </a></td>
-
 <!-- Whitespace -->
 <td id="top-table-td-whitespace">&nbsp;</td>
-
 <!-- Eigth card -->
-<td id="top-table-td"><a href="about-us/advisory-board/480-charlie-manning-advisory-page">
+<td id="top-table-td"><a href="about-us/advisory-board/480-charlie-manning-advisory-page" target="_blank">
 <div style="padding: 30px 20px 10px 20px; background-color: #dddada; border: none; transition: 0.3s;"><img src="images/advisors/IMG_0734.JPG" alt="Charlie" />
 <h5>Charlie Manning<br /> California<br /> <span>Read More About Charlie</span></h5>
 </div>
 </a></td>
-
 <!-- Whitespace -->
 <td id="top-table-td-whitespace">&nbsp;</td>
-
 <!-- Ninth card -->
-<td id="top-table-td"><a href="about-us/advisory-board/481-lori-delancey-advisory-page">
+<td id="top-table-td"><a href="about-us/advisory-board/481-lori-delancey-advisory-page" target="_blank">
 <div style="padding: 30px 20px 10px 20px; background-color: #dddada; border: none; transition: 0.3s;"><img src="images/advisors/Lori_Delancey.png" alt="Lori" />
 <h5>Lori DeLancey<br /> Tennessee<br /> <span>Read More About Lori</span></h5>
 </div>
 </a></td>
 </tr>
-
 <!-- Whitespace -->
 <tr style="background-color: transparent;">
 <td colspan="5" style="padding: 20px; background-color: transparent;">&nbsp;</td>
 </tr>
-<tr>
-
-<!-- Tenth card -->
-<td id="top-table-td"><a href="about-us/advisory-board/482-richard-lowe-advisory-page">
+<tr><!-- Tenth card -->
+<td id="top-table-td"><a href="about-us/advisory-board/482-richard-lowe-advisory-page" target="_blank">
 <div style="padding: 30px 20px 10px 20px; background-color: #dddada; border: none; transition: 0.3s;"><img src="images/advisors/Richard_Lowe.png" alt="Richard" />
 <h5>Richard Lowe, Esq.<br /> California<br /> <span>Read More About Richard</span></h5>
 </div>
 </a></td>
-
 <!-- Whitespace -->
 <td id="top-table-td-whitespace">&nbsp;</td>
-
 <!-- Eleventh card -->
-<td id="top-table-td"><a href="about-us/advisory-board/483-torri-eveans-barton-advisory-page">
+<td id="top-table-td"><a href="about-us/advisory-board/483-torri-eveans-barton-advisory-page" target="_blank">
 <div style="padding: 30px 20px 10px 20px; background-color: #dddada; border: none; transition: 0.3s;"><img src="images/Unknown-1.jpeg" alt="Torri" />
 <h5>Dr. Torri J. Evans-Barton<br /> Georgia<br /> <span>Read More About Dr. Torri</span></h5>
 </div>
 </a></td>
-
 <!-- Whitespace -->
 <td id="top-table-td-whitespace">&nbsp;</td>
-
 <!-- Twelveth card -->
-<td id="top-table-td"><a href="about-us/advisory-board/484-carnell-smith-advisory-board">
+<td id="top-table-td"><a href="about-us/advisory-board/484-carnell-smith-advisory-board" target="_blank">
 <div style="padding: 30px 20px 10px 20px; background-color: #dddada; border: none; transition: 0.3s;"><img src="images/advisors/images-2.jpeg" alt="Carnell" />
 <h5>Carnell Smith<br /> Georgia<br /> <span>Read More About Carnell</span></h5>
 </div>
 </a></td>
 </tr>
-
 <!-- Whitespace -->
 <tr style="background-color: transparent;">
 <td colspan="5" style="padding: 20px; background-color: transparent;">&nbsp;</td>
 </tr>
 </tbody>
 </table>
-
 <!-- Two last people -->
 <table id="bottom-table">
 <tbody>
 <tr>
-<td id="bottom-table-td"><!-- Thirteenth card --> <a href="about-us/advisory-board/491-meera-webster">
+<td id="bottom-table-td"><!-- Thirteenth card --> <a href="about-us/advisory-board/491-meera-webster" target="_blank">
 <div style="padding: 30px 20px 10px 20px; background-color: #dddada; border: none; transition: 0.3s;"><img src="images/Meera_Webster.png" alt="Meera" />
 <h5>Meera Webster<br /> Sydney, Australia<br /> <span>Read More About Meera</span></h5>
 </div>
 </a></td>
 <td id="bottom-table-td-two">&nbsp;</td>
-<td id="bottom-table-td"><!-- Fourtheenth card --> <a href="about-us/advisory-board/493-lena-butts-advisory-board">
+<td id="bottom-table-td"><!-- Fourtheenth card --> <a href="about-us/advisory-board/493-lena-butts-advisory-board" target="_blank">
 <div style="padding: 30px 20px 10px 20px; background-color: #dddada; border: none; transition: 0.3s;"><img src="images/Lena_Butts2.png" alt="Lena" />
 <h5>Lena Butts<br /> Missouri<br /> <span>Read More About Lena</span></h5>
 </div>
