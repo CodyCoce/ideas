@@ -1,0 +1,36 @@
+<!-- Row 1 -->
+<!-- Column A -->
+<hr style="border: solid 1px #ddd; margin-top: 12px;" />
+
+<!-- Column B -->
+<div style="text-align: center;">PATERNITY IS IMPORTANT TO YOU AND TO CHILDREN</div>
+
+<!-- Column C -->
+<hr style="border: solid #ddd 1px; margin-top: 12px;" />
+
+<!-- Row 2 -->
+
+<!-- Column A -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous" />
+<style type="text/css">#twitter-fc, #facebook-fc, #linkedin-fc, #youtube-fc, #instagram-fc {color:#000;}
+#twitter-fc:hover {color:#62E9FF;}
+#facebook-fc:hover {color:#0819A9;}
+#linkedin-fc:hover {color:#2092FF;}
+#youtube-fc:hover {color:red;}
+#instagram-fc:hover {color:orange;}
+#followUsP-fc {font-size:25px;}
+#followUsP-fc a {transition:0.3s;}
+#followUsP-fc a i {padding:5px;}</style>
+<div id="LocationInfo">
+<h3 style="color: black !important;">LOCATION</h3>
+<p>3400 Calloway Drive, <br /> Suite 703E <br /> Bakersfield, CA 93312</p>
+<p>Mon – Fri: 8AM – 5PM <br /> 661-829-6848</p>
+<h3 style="color: black !important;">FOLLOW US</h3>
+<p id="followUsP-fc"><a href="https://twitter.com/WAPF_USA" id="twitter-fc" target="_blank" rel="noopener"><i class="fab fa-twitter"></i></a> <a href="https://www.facebook.com/WomenAgainstPaternityFraud.org" id="facebook-fc" target="_blank" rel="noopener"><i class="fab fa-facebook-f"></i></a> <a href="https://www.linkedin.com/jobs/view/internship-positions-at-women-against-paternity-fraud-682869815" id="linkedin-fc" target="_blank" rel="noopener"><i class="fab fa-linkedin-in"></i></a> <a href="https://www.youtube.com/channel/UC5K06Xlk6ktkRm8wrpqwUcw" id="youtube-fc" target="_blank" rel="noopener"><i class="fab fa-youtube"></i></a> <a href="https://www.instagram.com/womenagainstpaternityfraud/" id="instagram-fc" target="_blank" rel="noopener"><i class="fab fa-instagram"></i></a></p>
+</div>
+
+<!-- Column B -->
+(Fox Contact Form)
+
+<!-- Column C -->
+<div><iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d1695.3307820902799!2d-119.10971572601554!3d35.39185234481941!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m5!1s0x80ea43096c955083%3A0x7f1ec945d011c94a!2s3400+Calloway+Dr+%23703E%2C+Bakersfield%2C+CA+93312!3m2!1d35.3917776!2d-119.1086223!4m0!5e0!3m2!1sen!2sus!4v1528928200199" width="100%" height="300" frameborder="0" style="border: 0; padding: 10px;" allowfullscreen="allowfullscreen"></iframe></div>
