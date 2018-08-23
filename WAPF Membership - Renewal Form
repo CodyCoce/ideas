@@ -1,0 +1,83 @@
+<span data-mce-json="{&quot;language&quot;:&quot;JavaScript1.2&quot;,&quot;type&quot;:&quot;mce-text/javascript&quot;}"> <!--function checkform() {
+		if (!document.form.elements["Agree"].checked) {
+			alert("Please agree to our Mission before submitting.  Thank you.");
+			return false;
+		}
+		if (!document.form.elements["Name"].value) {
+			alert("Please enter your Name before submitting.  Thank you.");
+			return false;
+		}
+		if (!document.form.elements["Email"].value) {
+			alert("Please enter your Email before submitting.  Thank you.");
+			return false;
+		}
+		if (!document.form.elements["State"].value) {
+			alert("Please enter your State before submitting.  Thank you.");
+			return false;
+		}
+	}--></span><form class="uk-form" action="../cgi-bin/join.pl" method="POST" name="form">
+<p>Please, select your Membership Level:</p>
+<p><input type="radio" value="25" checked="checked" name="Level" /> $25 WAPF Member<br /> <input type="radio" value="100" name="Level" /> $100 Silver Member<br /> <input type="radio" value="250" name="Level" /> $250 Gold Member<br /> <input type="radio" value="500" name="Level" /> $500 Lifetime Member</p>
+Addition donation: $<input type="text" name="Donation" size="5" /> <br /><br /> <input type="checkbox" name="Renew" value="Y" checked="checked" /> Please, renew my membership &amp; donation annually!<br />
+<p>Silver, Gold, &amp; Lifetime Member T-shirts:<br /> <span style="color: #ff0000;">(Shirts not available for $25 WAPF Members)</span><br /> Gender:<select size="1" name="TshirtGender"><option value="Male">Male</option><option value="Female">Female</option></select>&nbsp; Size:<select size="1" name="TshirtSize"><option value="Small">Small</option><option value="Medium">Medium</option><option value="Large">Large</option><option value="X-Large">X-Large</option></select></p>
+<p><span style="background-color: initial;">Contact Information:</span></p>
+<br />
+<table>
+<tbody>
+<tr>
+<td>Name*:</td>
+<td><input type="text" name="Name" size="40" /></td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>Silver, Gold, &amp; Lifetime Members:<br />&nbsp; &nbsp;&nbsp;<input type="radio" value="Y" name="AddName" checked="checked" /> Please, add my name to your website.<br /> &nbsp; &nbsp;&nbsp;<input type="radio" value="N" name="AddName" /> No, keep my name anonymous.</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>Email*:</td>
+<td><input type="text" name="Email" size="40" /></td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>&nbsp;&nbsp;<input type="checkbox" name="List" value="Y" checked="checked" /> Please, add me to the WAPF mailing list.</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>Phone:</td>
+<td><input type="text" name="Phone" size="40" /></td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>Street:</td>
+<td><input type="text" name="Street" size="40" /></td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>Membership Gifts for Silver, Gold &amp; Lifetime Members:<br />&nbsp; &nbsp;&nbsp;<input type="radio" value="Y" name="Gifts" checked="checked" /> Yes, send me my membership gifts.<br />&nbsp; &nbsp; &nbsp; &nbsp; (Please, enter your full mailing address.)<br /> &nbsp; &nbsp;&nbsp;<input type="radio" value="N" name="Gifts" /> No, I do not wish to receive the gifts.</td>
+</tr>
+<tr>
+<td>City:</td>
+<td><input type="text" name="City" size="40" /></td>
+</tr>
+<tr>
+<td>State*:</td>
+<td><input type="text" name="State" size="40" /></td>
+</tr>
+<tr>
+<td>Zip:</td>
+<td><input type="text" name="Zip" size="40" /></td>
+</tr>
+</tbody>
+</table>
+<br /> <input type="checkbox" name="Photo" value="Y" /> Add my photo to your website (under Meet Our Members.)<br /> &nbsp; &nbsp; &nbsp;(Email your photo to <a href="mailto:womenagainstpaternityfraud@gmail.com">womenagainstpaternityfraud@gmail.com</a>)<br /> <a href="mailto:womenagainstpaternityfraud@gmail.com"></a><br /> Comments?<br /> <textarea name="Comments" rows="4" cols="39"></textarea><br /><br /> <input type="submit" value="Submit Membership" onclick="return checkform();" />&nbsp; * Required information<br /><br /> Membership donations are processed by Paypal and are tax deductible.
+<p>&nbsp;</p>
+</form>
