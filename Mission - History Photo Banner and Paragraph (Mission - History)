@@ -1,18 +1,11 @@
 <!-- The photo banner -->
 <p><img src="images/banners/wapf-mission-and-history.jpg" alt="wapf-mission-and-history.jpg" style="width: 100%;" /></p>
-
 <!-- Title paragraph -->
 <div align="center">
-<p><span style="font-size: 12pt; color: #000000;">
-<strong>We, the members of Women Against Paternity Fraud believe that the laws &amp; policies surrounding paternity establishments must require truthful disclosures as to who the biological father is to prevent paternity &amp; child support fraud.</strong>
-</span></p>
+<p><span style="font-size: 12pt; color: #000000;"> <strong>We, the members of Women Against Paternity Fraud believe that the laws &amp; policies surrounding paternity establishments must require truthful disclosures as to who the biological father is to prevent paternity &amp; child support fraud.</strong> </span></p>
 </div>
-
-<style type="text/css">
-/* This tells all the list items to have a circle */
-.we-believe li {list-style-type:circle;}
-</style>
-
+<style type="text/css">/* This tells all the list items to have a circle */
+.we-believe li {list-style-type:circle;}</style>
 <!-- This is the list of "We believe" items -->
 <ul class="we-believe">
 <li>We believe that eligibility for receipt of federal funds under Temporary Aid for Needy Families (TANF) and under the incentive formulas should require that states find the biological father instead of just any father. We believe that state laws must provide that no paternity establishment is final unless it has been confirmed by DNA evidence.</li>
@@ -29,8 +22,6 @@
 <br />
 <li>We believe when truth in paternity is established, equal rights and equal responsibilities will follow which is in the best interest of men, women, children, and society.</li>
 </ul>
-<br />
-
-<!-- This is the "HISTORY" paragraph -->
+<br /> <!-- This is the "HISTORY" paragraph -->
 <p style="font-size: 24pt;">HISTORY</p>
-<p>Women Against Paternity Fraud was founded in November of 2014 by <a href="about-us/wapf-founders">Dianna Thompson</a> and <a href="about-us/wapf-founders">Alicia Thompson</a> (not related) who are bringing together national leading experts on paternity policies and paternity fraud issues to educate the public, legislators, policymakers, and the media on the issue of paternity fraud and the need for reform.</p>
+<p>Women Against Paternity Fraud was founded in November of 2014 by <a href="about-us/wapf-founders" target="_blank">Dianna Thompson</a> and <a href="about-us/wapf-founders" target="_blank">Alicia Thompson</a> (not related) who are bringing together national leading experts on paternity policies and paternity fraud issues to educate the public, legislators, policymakers, and the media on the issue of paternity fraud and the need for reform.</p>
