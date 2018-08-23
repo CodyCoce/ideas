@@ -1,17 +1,6 @@
 <!-- The image -->
-<div class="tm-image uk-text-center data-uk-scrollspy" style="background-image: url('images/WAPF-group-banner.jpg'); background-size: cover; padding: 0; margin: 0;">
-
-<!-- The box in the middle of the image -->
+<div class="tm-image uk-text-center data-uk-scrollspy" style="background-image: url('images/WAPF-group-banner.jpg'); background-size: cover; padding: 0; margin: 0;"><!-- The box in the middle of the image -->
 <div class="uk-height-1-1 uk-vertical-align">
-<div class="tm-heading-box uk-vertical-align-middle uk-animation-fade" style="background-color: rgba(206,93,111,0.6);">
-
-<!-- The heart in the box --><i class="uk-icon-heart uk-icon-small"></i><br /> 
-<!-- Donate button --> <a class="uk-button uk-button-primary uk-margin-large-top" href="donate/">DONATE</a> 
-
-<!-- Whitespace --> &nbsp;&nbsp; 
-
-<!-- Become A Member button --> <a class="uk-button uk-button-primary uk-margin-large-top" href="join-us/become-a-member/">BECOME A MEMBER</a>
-
-</div>
+<div class="tm-heading-box uk-vertical-align-middle uk-animation-fade" style="background-color: rgba(206,93,111,0.6);"><!-- The heart in the box --><i class="uk-icon-heart uk-icon-small"></i><br /> <!-- Donate button --> <a class="uk-button uk-button-primary uk-margin-large-top" href="donate/">DONATE</a> <!-- Whitespace --> &nbsp;&nbsp; <!-- Become A Member button --> <a class="uk-button uk-button-primary uk-margin-large-top" href="join-us/become-a-member/">BECOME A MEMBER</a></div>
 </div>
 </div>
