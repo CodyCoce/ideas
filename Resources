@@ -1,0 +1,37 @@
+<style type="text/css">/* Tells the main table to center the content and be 100% of the available width */
+#resource-table {width: 100%;text-align:center;}
+
+/* Tells all the <td>s in the table to be 250 pixels tall and align to the bottom */
+#resource-table td {height:250px;vertical-align:bottom;}
+
+/* When the page is a minimum of 1200 pixels in width then all images in the table become 300 pixels wide */
+@media screen and (min-width:1200px) {
+	#resource-table img {width:300px;}
+}
+
+/* When the page is a maximum of 1220 pixels in width then all images in the table become 250 pixels wide and the text becomes 18 pixels */
+@media screen and (max-width:1220px) {
+	#resource-table img {width:250px;}
+	#resource-text {font-size:18px;}
+}
+
+/* When the page is a maximum of 900 pixels in width then all images in the table become 200 pixels wide and the text becomes 15 pixels */
+@media screen and (max-width:900px) {
+	#resource-table img {width:200px;}
+	#resource-text {font-size:15px;}
+}</style>
+<table align="center" id="resource-table">
+<tbody>
+<tr>
+<td><a href="index.php?option=com_content&amp;view=article&amp;id=86&amp;Itemid=494"> <img src="images/resources/attorneys.jpg" alt="Attorneys" id="box-shadow-on-hover" /> </a>
+<h3><a href="index.php?option=com_content&amp;view=article&amp;id=86&amp;Itemid=494" id="resource-text">Attorney's</a></h3>
+</td>
+<td><a href="index.php?option=com_content&amp;view=article&amp;id=111&amp;Itemid=559"> <img src="images/resources/conferences.jpg" alt="Conferences &amp; Presentations" id="box-shadow-on-hover" /> </a>
+<h3><a href="index.php?option=com_content&amp;view=article&amp;id=111&amp;Itemid=559" id="resource-text">Conferences &amp; <wbr />Presentations</a></h3>
+</td>
+<td><a href="index.php?option=com_content&amp;view=article&amp;id=85&amp;Itemid=493"> <img src="images/resources/organization.jpg" alt="Paternity Organizations" id="box-shadow-on-hover" /> </a>
+<h3><a href="index.php?option=com_content&amp;view=article&amp;id=85&amp;Itemid=493" id="resource-text">Organizations</a></h3>
+</td>
+</tr>
+</tbody>
+</table>
