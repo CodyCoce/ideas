@@ -1,44 +1,19 @@
 <!-- The logo, top left text, and top right social icons -->
 <table>
 <tbody>
-<tr>
-
-<!-- This is the Store | Become A Member / Announcements | Contact Us part -->
-<td style="width: 24%;">
-
-<span id="textColors">
-
-<a href="index.php?option=com_beacart&amp;view=frontpage&amp;Itemid=579">Store</a> | <a href="join-us/become-a-member">Become A Member</a><br /><a href="/wapf2018/announcements">Announcements</a> | <a href="/wapf2018/contact">Contact Us</a></span></td>
-
+<tr><!-- This is the Store | Become A Member / Announcements | Contact Us part -->
+<td style="width: 24%;"><span id="textColors"> <a href="index.php?option=com_beacart&amp;view=frontpage&amp;Itemid=579" target="_blank">Store</a> | <a href="join-us/become-a-member" target="_blank">Become A Member</a><br /><a href="/wapf2018/announcements" target="_blank">Announcements</a> | <a href="/wapf2018/contact" target="_blank">Contact Us</a></span></td>
 <!-- This is the logo -->
 <td style="width: 50%; text-align: middle;">
-
-<div style="text-align: center;">
-
-<a href="/wapf2018"><img src="images/wapf-1.png" alt="wapf-1" style="display: block; margin: 0 auto; padding-bottom: 20px;" height="500px" align="center" /></a>
-
-</div>
+<div style="text-align: center;"><a href="/wapf2018"><img src="images/wapf-1.png" alt="wapf-1" style="display: block; margin: 0 auto; padding-bottom: 20px;" height="500px" align="center" /></a></div>
 </td>
-
 <!-- This is the social media icons part -->
-<td style="width: 26%;">
-
-<span id="followUsP">
-
-<a href="https://twitter.com/WAPF_USA" id="twitter" title="Follow us on Twitter!"><i class="fab fa-twitter"></i></a> <a href="https://www.facebook.com/WomenAgainstPaternityFraud.org" id="facebook" title="Like us on Facebook!"><i class="fab fa-facebook-f"></i></a> <a href="https://www.linkedin.com/jobs/view/internship-positions-at-women-against-paternity-fraud-682869815" id="linkedin" title="Check out our LinkedIn page!"><i class="fab fa-linkedin-in"></i></a> <a href="https://www.youtube.com/channel/UC5K06Xlk6ktkRm8wrpqwUcw" id="youtube" title="Subscribe to our YouTube channel!"><i class="fab fa-youtube"></i></a> <a href="https://www.instagram.com/womenagainstpaternityfraud/" id="instagram" title="Follow us on Instagram!"><i class="fab fa-instagram"></i></a>
-
-</span>
-
-</td>
+<td style="width: 26%;"><span id="followUsP"> <a href="https://twitter.com/WAPF_USA" id="twitter" title="Follow us on Twitter!" target="_blank" rel="noopener"><i class="fab fa-twitter"></i></a> <a href="https://www.facebook.com/WomenAgainstPaternityFraud.org" id="facebook" title="Like us on Facebook!" target="_blank" rel="noopener"><i class="fab fa-facebook-f"></i></a> <a href="https://www.linkedin.com/jobs/view/internship-positions-at-women-against-paternity-fraud-682869815" id="linkedin" title="Check out our LinkedIn page!" target="_blank" rel="noopener"><i class="fab fa-linkedin-in"></i></a> <a href="https://www.youtube.com/channel/UC5K06Xlk6ktkRm8wrpqwUcw" id="youtube" title="Subscribe to our YouTube channel!" target="_blank" rel="noopener"><i class="fab fa-youtube"></i></a> <a href="https://www.instagram.com/womenagainstpaternityfraud/" id="instagram" title="Follow us on Instagram!" target="_blank" rel="noopener"><i class="fab fa-instagram" target="_blank"></i></a> </span></td>
 </tr>
 </tbody>
 </table>
-
-<!-- This links to a bunch of icons provided by FontAwesome --> 
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous" />
-
-<style type="text/css">
-/* Logo, social icons, and text styles */
+<!-- This links to a bunch of icons provided by FontAwesome --> <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous" />
+<style type="text/css">/* Logo, social icons, and text styles */
 #textColors {position:fixed;top:5px;left:10px;display:block;z-index:0;}
 #textColors a {color:#505359;transition:0.3s;}
 #textColors a:hover {color:#CA596B;}
@@ -57,7 +32,7 @@
     left: 0;
     overflow-x:hidden;
     transition: 0.5s;
-    line-height:20px;
+    line-height:25px;
     opacity:0;
 }
 
@@ -66,7 +41,7 @@
     color: #606060;
     display: block;
     transition: 0.3s;
-    font-size:16px;
+    font-size:30px;
 }
 
 .sidenav a:hover {
@@ -74,14 +49,14 @@
 }
 
 .sidenav .closebtn {
-    font-size:45px;
+    font-size:80px;
 }
 
 #menuThatStevenMade a:hover {
     color:#c35967;
 }
 
-
+/* The white box in the top left */
 #menuThatStevenMade {
   background-color:#fff !important;
   position:fixed;
@@ -89,13 +64,15 @@
   left:0;
   z-index:9999;
   box-shadow: #aaa 2px 2px 8px 0px;
-  padding:15px 5px 15px 5px;
+  padding:20px 5px 15px 5px;
 }
+
+/* The menu icon in the white box */
 #menuThatStevenMade span {
   transition:0.2s;
   cursor: pointer; 
-  font-size: 40px;
-  padding:10px;
+  font-size: 60px;
+  padding:10px
 }
 
 /* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
@@ -115,13 +92,9 @@
 }
 
 .sidenav .dropdown-btn {
-    text-decoration: none;
-    font-size: 18px;
     color: #818181;
     display: block;
-    border: none;
     background: none;
-    width: 100%;
     text-align: left;
     cursor: pointer;
     outline: none;
@@ -161,7 +134,7 @@
 .cl-menu li a {
   display: block !important;
   min-width: 150px !important;
-    padding: 10px !important;
+  padding: 10px !important;
   color:#606060;
 }
     
@@ -197,6 +170,7 @@
 .dropright ul li a:hover {
   color:#fff !important;
 }
+.dropright ul {width: 500px;}
 
 #menu {
   float:left;
@@ -204,26 +178,17 @@
 }
 
 .openNavMenuButton {color:#000 !important;transition:0.3s;}
-.openNavMenuButton:hover {color:#c35967 !important;}
-</style>
-
+.openNavMenuButton:hover {color:#c35967 !important;}</style>
 <!-- Collapsible navbar (Open) -->
 <div id="menuThatStevenMade"><span onclick="openNav()" class="openNavMenuButton">☰</span></div>
-
 <!-- Collapsible navbar (Sidenav) -->
-<div id="mySidenav" class="sidenav" onmouseleave="closeNav()">
-
-<!-- Collapsible navbar (Dropright) -->
+<div id="mySidenav" class="sidenav" onmouseleave="closeNav()"><!-- Collapsible navbar (Dropright) -->
 <div id="menu" onmouseleave="closeNav()">
 <ul class="cl-menu">
-<li><a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a></li>
+<li style="padding-bottom: 10px;"><a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a></li>
 </ul>
-
-<ul class="cl-menu">
-
-<!-- Home (Single button) -->
+<ul class="cl-menu"><!-- Home (Single button) -->
 <li><a href="/wapf2018">Home</a></li>
-
 <!-- Paternity Fraud Info. (Dropdown button) -->
 <li class="dropright"><a href="javascript:void(0)" onmouseover="openDropRight()">Paternity Fraud Info. <i class="fas fa-caret-right"></i></a>
 <ul>
@@ -238,9 +203,7 @@
 </ul>
 </li>
 </ul>
-<ul class="cl-menu">
-
-<!-- About Us (Dropdown button) -->
+<ul class="cl-menu"><!-- About Us (Dropdown button) -->
 <li class="dropright"><a href="javascript:void(0)" onmouseover="openDropRight()">About Us <i class="fas fa-caret-right"></i></a>
 <ul>
 <li><a href="about-us/">About WAPF</a></li>
@@ -252,9 +215,7 @@
 </ul>
 </li>
 </ul>
-<ul class="cl-menu">
-
-<!-- Articles (Dropdown button) -->
+<ul class="cl-menu"><!-- Articles (Dropdown button) -->
 <li class="dropright"><a href="javascript:void(0)" onmouseover="openDropRight()">Articles <i class="fas fa-caret-right"></i></a>
 <ul>
 <li><a href="articles/">News Articles</a></li>
@@ -262,9 +223,7 @@
 </ul>
 </li>
 </ul>
-<ul class="cl-menu">
-
-<!-- Advocacy (Dropdown button) -->
+<ul class="cl-menu"><!-- Advocacy (Dropdown button) -->
 <li class="dropright"><a href="javascript:void(0)" onmouseover="openDropRight()">Advocacy <i class="fas fa-caret-right"></i></a>
 <ul>
 <li><a href="advocacy/current-policies/">Current Paternity Fraud Policies</a></li>
@@ -274,9 +233,7 @@
 </ul>
 </li>
 </ul>
-<ul class="cl-menu">
-
-<!-- Resources (Dropdown button) -->
+<ul class="cl-menu"><!-- Resources (Dropdown button) -->
 <li class="dropright"><a href="javascript:void(0)" onmouseover="openDropRight()">Resources <i class="fas fa-caret-right"></i></a>
 <ul>
 <li><a href="resources/attorneys/">Attorneys</a></li>
@@ -286,9 +243,7 @@
 </ul>
 </li>
 </ul>
-<ul class="cl-menu">
-
-<!-- News Room (Dropdown button) -->
+<ul class="cl-menu"><!-- News Room (Dropdown button) -->
 <li class="dropright"><a href="javascript:void(0)" onmouseover="openDropRight()">News Room <i class="fas fa-caret-right"></i></a>
 <ul>
 <li><a href="news-room/spokespersons/">Spokespersons</a></li>
@@ -296,9 +251,7 @@
 </ul>
 </li>
 </ul>
-<ul class="cl-menu">
-
-<!-- Join Us (Dropdown button) -->
+<ul class="cl-menu"><!-- Join Us (Dropdown button) -->
 <li class="dropright"><a href="javascript:void(0)" onmouseover="openDropRight()">Join Us <i class="fas fa-caret-right"></i></a>
 <ul>
 <li><a href="join-us/become-a-member/">Become A Member</a></li>
@@ -311,15 +264,13 @@
 <li><a href="join-us/wapf-committees/">WAPF Committees</a></li>
 </ul>
 </li>
-
 <!-- Donate (Single button) -->
 <li><a href="donate/">Donate</a></li>
 </ul>
 </div>
 </div>
 <!-- JAVASCRIPT -->
-<script type="text/javascript">
-// When the menu button is clicked then this function runs
+<script type="text/javascript">// When the menu button is clicked then this function runs
 function openNav() {
   document.getElementById("mySidenav").style.width = "auto";
   document.getElementById("mySidenav").style.opacity = "1";
@@ -333,6 +284,5 @@ function closeNav() {
 
 // When the user clicks on any dropdown button then this function runs
 function openDropRight() {
-  document.getElementById("mySidenav").style.width = "370px";
-}
-</script>
+  document.getElementById("mySidenav").style.width = "100%";
+}</script>
