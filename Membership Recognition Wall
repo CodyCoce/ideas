@@ -27,6 +27,7 @@
 		padding: 20px 50px 20px 0px !important;
         margin: -70px -5px -105px -25px !important;
 	}
+.square-image {padding: 35px 0px 40px 0px !important;}
 }
 
 /* When the page is at least 1100 pixels then the background changes */
@@ -35,6 +36,7 @@
 	padding:20px 50px 20px 0px !important;
 	margin:-70px 0px -105px -25px !important;
 	}
+.square-image {padding: 35px 0px 40px 0px !important;}
 }
 
 /* When the page is at least 1200 pixels then the background changes */
@@ -43,6 +45,7 @@
 	padding:20px 60px 20px 0px !important;
 	margin:-70px 0px -105px -30px !important;
 	}
+.square-image {padding: 55px 0px 50px 0px !important;}
 }
 
 /* Tells the table to be more centered */
@@ -153,7 +156,7 @@
 </td>
 <td class="whitespace">&nbsp;</td>
 <td class="card">
-<div class="image" style="padding: 55px 0px 50px 0px !important;"><img src="images/Meera_Webster.png" alt="Meera Webster" /></div>
+<div class="image square-image"><img src="images/Meera_Webster.png" alt="Meera Webster" /></div>
 <div class="text">
 <p><strong>Meera Webster</strong><br /> Premium Member<br /> August 2017</p>
 </div>
