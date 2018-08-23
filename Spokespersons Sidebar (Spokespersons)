@@ -1,20 +1,12 @@
 <!-- The images in the sidebar for the Spokespersons page -->
-<div style="text-align: center;">
-
-<!-- Image one -->
+<div style="text-align: center;"><!-- Image one -->
 <p><img src="images/biographies/judgemablean.jpeg" alt="judgemablean" style="text-align: center;" width="100%" /></p>
-
 <!-- Text one -->
 <p>Dianna Thompson with Judge Mabelean from Divorce Court and Justice with Judge Mabelean testifying on Paternity Fraud legislation in California.</p>
-
-
 <!-- Image two -->
 <p><img src="images/biographies/10748885_10203968798432933_921894841_n.jpg" alt="10748885 10203968798432933 921894841 n" /></p>
-
-
 <!-- Image three -->
 <p><img src="images/biographies/anamurdoch.jpg" width="100%" alt="anamurdoch" /></p>
-
 <!-- Text three (two) -->
 <p>Dianna Thompson with Anna Murdoch former President of the Children’s Institute International.</p>
 </div>
