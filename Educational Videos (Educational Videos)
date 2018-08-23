@@ -1,11 +1,8 @@
 <!-- Photo banner -->
 <p style="text-align: center;"><img src="images/banners/Educational-Videos.jpeg" alt="Educational-Videos.jpeg" style="width: 850px;" /></p>
-
 <!-- Whitespace -->
 <p>&nbsp;</p>
-
-<style type="text/css">
-/* Tells the table to be as wide as can be */
+<style type="text/css">/* Tells the table to be as wide as can be */
 .video-table {
 	width:100%;
 }
@@ -20,8 +17,7 @@
 .video-table tr td iframe {
 	width:480px;
 	height:235px;
-}
-</style>
+}</style>
 <table class="video-table">
 <tbody>
 <tr>
