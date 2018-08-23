@@ -1,11 +1,2 @@
-<!-- This calls a list of icons to use for the button --> 
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous" /> 
-
-<!-- Women Against Paternity Fraud text -->
-<p style="color: #c35967;"><strong>Woman Against Paternity Fraud</strong><br /> 
-
-<!-- The copyright text --> 
-Copyright © 2018 - All Rights Reserved. 
-
-<!-- The back to top button --> 
-<a href="index.php?option=com_users&amp;view=login&amp;Itemid=596"><br /></a></p>
+<!-- This calls a list of icons to use for the button --> <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous" /> <!-- Women Against Paternity Fraud text -->
+<p style="color: #c35967;"><strong>Woman Against Paternity Fraud</strong><br /> <!-- The copyright text --> Copyright © 2018 - All Rights Reserved. <!-- The back to top button --> <a href="index.php?option=com_users&amp;view=login&amp;Itemid=596"><br /></a></p>
